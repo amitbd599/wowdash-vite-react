@@ -6,7 +6,7 @@ import HomePageFour from "./pages/HomePageFour";
 import HomePageFive from "./pages/HomePageFive";
 import HomePageSix from "./pages/HomePageSix";
 import HomePageSeven from "./pages/HomePageSeven";
-// import EmailPage from "./pages/EmailPage";
+import EmailPage from "./pages/EmailPage";
 // import AddUserPage from "./pages/AddUserPage";
 // import AlertPage from "./pages/AlertPage";
 // import AssignRolePage from "./pages/AssignRolePage";
@@ -82,7 +82,7 @@ import HomePageSeven from "./pages/HomePageSeven";
 // import RouteScrollToTop from "./helper/RouteScrollToTop";
 // import Demo from "./demo/Demo";
 // import TextGeneratorNewPage from "./pages/TextGeneratorNewPage";
-// import HomePageEight from "./pages/HomePageEight";
+import HomePageEight from "./pages/HomePageEight";
 // import HomePageNine from "./pages/HomePageNine";
 // import HomePageTen from "./pages/HomePageTen";
 // import HomePageEleven from "./pages/HomePageEleven";
@@ -111,7 +111,7 @@ function App() {
         <Route exact path='/index-5' element={<HomePageFive />} />
         <Route exact path='/index-6' element={<HomePageSix />} />
         <Route exact path='/index-7' element={<HomePageSeven />} />
-        {/* <Route exact path='/index-8' element={<HomePageEight />} /> */}
+        <Route exact path='/index-8' element={<HomePageEight />} />
         {/* <Route exact path='/index-9' element={<HomePageNine />} /> */}
         {/* <Route exact path='/index-10' element={<HomePageTen />} /> */}
         {/* <Route exact path='/index-11' element={<HomePageEleven />} />  */}
