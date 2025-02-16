@@ -4,7 +4,7 @@ import HomePageTwo from "./pages/HomePageTwo";
 import HomePageThree from "./pages/HomePageThree";
 import HomePageFour from "./pages/HomePageFour";
 import HomePageFive from "./pages/HomePageFive";
-// import HomePageSix from "./pages/HomePageSix";
+import HomePageSix from "./pages/HomePageSix";
 // import HomePageSeven from "./pages/HomePageSeven";
 // import EmailPage from "./pages/EmailPage";
 // import AddUserPage from "./pages/AddUserPage";
@@ -109,7 +109,7 @@ function App() {
         <Route exact path='/index-3' element={<HomePageThree />} />
         <Route exact path='/index-4' element={<HomePageFour />} />
         <Route exact path='/index-5' element={<HomePageFive />} />
-        {/* <Route exact path='/index-6' element={<HomePageSix />} /> */}
+        <Route exact path='/index-6' element={<HomePageSix />} />
         {/* <Route exact path='/index-7' element={<HomePageSeven />} /> */}
         {/* <Route exact path='/index-8' element={<HomePageEight />} /> */}
         {/* <Route exact path='/index-9' element={<HomePageNine />} /> */}
