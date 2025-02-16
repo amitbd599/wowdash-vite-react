@@ -11,8 +11,8 @@ import AddUserPage from "./pages/AddUserPage";
 import AlertPage from "./pages/AlertPage";
 import AssignRolePage from "./pages/AssignRolePage";
 import AvatarPage from "./pages/AvatarPage";
-// import BadgesPage from "./pages/BadgesPage";
-// import ButtonPage from "./pages/ButtonPage";
+import BadgesPage from "./pages/BadgesPage";
+import ButtonPage from "./pages/ButtonPage";
 // import CalendarMainPage from "./pages/CalendarMainPage";
 // import CardPage from "./pages/CardPage";
 // import CarouselPage from "./pages/CarouselPage";
@@ -121,9 +121,9 @@ function App() {
         <Route exact path='/alert' element={<AlertPage />} />
         <Route exact path='/assign-role' element={<AssignRolePage />} />
         <Route exact path='/avatar' element={<AvatarPage />} />
-        {/*  <Route exact path='/badges' element={<BadgesPage />} />
+        <Route exact path='/badges' element={<BadgesPage />} />
         <Route exact path='/button' element={<ButtonPage />} />
-        <Route exact path='/calendar-main' element={<CalendarMainPage />} />
+        {/*   <Route exact path='/calendar-main' element={<CalendarMainPage />} />
         <Route exact path='/calendar' element={<CalendarMainPage />} />
         <Route exact path='/card' element={<CardPage />} />
         <Route exact path='/carousel' element={<CarouselPage />} />
