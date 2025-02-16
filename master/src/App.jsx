@@ -7,8 +7,8 @@ import HomePageFive from "./pages/HomePageFive";
 import HomePageSix from "./pages/HomePageSix";
 import HomePageSeven from "./pages/HomePageSeven";
 import EmailPage from "./pages/EmailPage";
-// import AddUserPage from "./pages/AddUserPage";
-// import AlertPage from "./pages/AlertPage";
+import AddUserPage from "./pages/AddUserPage";
+import AlertPage from "./pages/AlertPage";
 // import AssignRolePage from "./pages/AssignRolePage";
 // import AvatarPage from "./pages/AvatarPage";
 // import BadgesPage from "./pages/BadgesPage";
@@ -117,9 +117,9 @@ function App() {
         <Route exact path='/index-11' element={<HomePageEleven />} />
 
         {/* SL */}
-        {/* <Route exact path='/add-user' element={<AddUserPage />} />
+        <Route exact path='/add-user' element={<AddUserPage />} />
         <Route exact path='/alert' element={<AlertPage />} />
-        <Route exact path='/assign-role' element={<AssignRolePage />} />
+        {/*    <Route exact path='/assign-role' element={<AssignRolePage />} />
         <Route exact path='/avatar' element={<AvatarPage />} />
         <Route exact path='/badges' element={<BadgesPage />} />
         <Route exact path='/button' element={<ButtonPage />} />
