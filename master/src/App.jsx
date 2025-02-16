@@ -85,7 +85,7 @@ import EmailPage from "./pages/EmailPage";
 import HomePageEight from "./pages/HomePageEight";
 import HomePageNine from "./pages/HomePageNine";
 import HomePageTen from "./pages/HomePageTen";
-// import HomePageEleven from "./pages/HomePageEleven";
+import HomePageEleven from "./pages/HomePageEleven";
 // import GalleryGridPage from "./pages/GalleryGridPage";
 // import GalleryMasonryPage from "./pages/GalleryMasonryPage";
 // import GalleryHoverPage from "./pages/GalleryHoverPage";
@@ -114,7 +114,7 @@ function App() {
         <Route exact path='/index-8' element={<HomePageEight />} />
         <Route exact path='/index-9' element={<HomePageNine />} />
         <Route exact path='/index-10' element={<HomePageTen />} />
-        {/* <Route exact path='/index-11' element={<HomePageEleven />} />  */}
+        <Route exact path='/index-11' element={<HomePageEleven />} />
 
         {/* SL */}
         {/* <Route exact path='/add-user' element={<AddUserPage />} />
