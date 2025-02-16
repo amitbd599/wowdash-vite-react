@@ -27,7 +27,7 @@ import CurrenciesPage from "./pages/CurrenciesPage";
 import DropdownPage from "./pages/DropdownPage";
 // import ErrorPage from "./pages/ErrorPage";
 import FaqPage from "./pages/FaqPage";
-// import ForgotPasswordPage from "./pages/ForgotPasswordPage";
+import ForgotPasswordPage from "./pages/ForgotPasswordPage";
 // import FormLayoutPage from "./pages/FormLayoutPage";
 // import FormValidationPage from "./pages/FormValidationPage";
 // import FormPage from "./pages/FormPage";
@@ -142,8 +142,8 @@ function App() {
         <Route exact path='/dropdown' element={<DropdownPage />} />
         <Route exact path='/email' element={<EmailPage />} />
         <Route exact path='/faq' element={<FaqPage />} />
-        {/*  <Route exact path='/forgot-password' element={<ForgotPasswordPage />} />
-        <Route exact path='/form-layout' element={<FormLayoutPage />} />
+        <Route exact path='/forgot-password' element={<ForgotPasswordPage />} />
+        {/*   <Route exact path='/form-layout' element={<FormLayoutPage />} />
         <Route exact path='/form-validation' element={<FormValidationPage />} />
         <Route exact path='/form' element={<FormPage />} />
 
