@@ -17,7 +17,7 @@ import CalendarMainPage from "./pages/CalendarMainPage";
 import CardPage from "./pages/CardPage";
 import CarouselPage from "./pages/CarouselPage";
 import ChatMessagePage from "./pages/ChatMessagePage";
-// import ChatProfilePage from "./pages/ChatProfilePage";
+import ChatProfilePage from "./pages/ChatProfilePage";
 // import CodeGeneratorNewPage from "./pages/CodeGeneratorNewPage";
 // import CodeGeneratorPage from "./pages/CodeGeneratorPage";
 // import ColorsPage from "./pages/ColorsPage";
@@ -128,8 +128,8 @@ function App() {
         <Route exact path='/carousel' element={<CarouselPage />} />
 
         <Route exact path='/chat-message' element={<ChatMessagePage />} />
-        {/*   <Route exact path='/chat-profile' element={<ChatProfilePage />} />
-        <Route exact path='/code-generator' element={<CodeGeneratorPage />} />
+        <Route exact path='/chat-profile' element={<ChatProfilePage />} />
+        {/*  <Route exact path='/code-generator' element={<CodeGeneratorPage />} />
         <Route
           exact
           path='/code-generator-new'
