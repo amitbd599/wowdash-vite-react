@@ -24,7 +24,7 @@ import ColorsPage from "./pages/ColorsPage";
 import ColumnChartPage from "./pages/ColumnChartPage";
 import CompanyPage from "./pages/CompanyPage";
 import CurrenciesPage from "./pages/CurrenciesPage";
-// import DropdownPage from "./pages/DropdownPage";
+import DropdownPage from "./pages/DropdownPage";
 // import ErrorPage from "./pages/ErrorPage";
 // import FaqPage from "./pages/FaqPage";
 // import ForgotPasswordPage from "./pages/ForgotPasswordPage";
@@ -139,8 +139,8 @@ function App() {
         <Route exact path='/column-chart' element={<ColumnChartPage />} />
         <Route exact path='/company' element={<CompanyPage />} />
         <Route exact path='/currencies' element={<CurrenciesPage />} />
-        {/*    <Route exact path='/dropdown' element={<DropdownPage />} />
-        <Route exact path='/email' element={<EmailPage />} />
+        <Route exact path='/dropdown' element={<DropdownPage />} />
+        {/*    <Route exact path='/email' element={<EmailPage />} />
         <Route exact path='/faq' element={<FaqPage />} />
         <Route exact path='/forgot-password' element={<ForgotPasswordPage />} />
         <Route exact path='/form-layout' element={<FormLayoutPage />} />
