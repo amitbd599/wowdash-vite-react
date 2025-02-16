@@ -16,8 +16,7 @@ import ButtonPage from "./pages/ButtonPage";
 import CalendarMainPage from "./pages/CalendarMainPage";
 import CardPage from "./pages/CardPage";
 import CarouselPage from "./pages/CarouselPage";
-// import ChatEmptyPage from "./pages/ChatEmptyPage";
-// import ChatMessagePage from "./pages/ChatMessagePage";
+import ChatMessagePage from "./pages/ChatMessagePage";
 // import ChatProfilePage from "./pages/ChatProfilePage";
 // import CodeGeneratorNewPage from "./pages/CodeGeneratorNewPage";
 // import CodeGeneratorPage from "./pages/CodeGeneratorPage";
@@ -127,9 +126,9 @@ function App() {
         <Route exact path='/calendar' element={<CalendarMainPage />} />
         <Route exact path='/card' element={<CardPage />} />
         <Route exact path='/carousel' element={<CarouselPage />} />
-        <Route exact path='/chat-empty' element={<ChatEmptyPage />} />
-        {/*   <Route exact path='/chat-message' element={<ChatMessagePage />} />
-        <Route exact path='/chat-profile' element={<ChatProfilePage />} />
+
+        <Route exact path='/chat-message' element={<ChatMessagePage />} />
+        {/*   <Route exact path='/chat-profile' element={<ChatProfilePage />} />
         <Route exact path='/code-generator' element={<CodeGeneratorPage />} />
         <Route
           exact
