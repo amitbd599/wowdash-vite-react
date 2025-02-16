@@ -30,7 +30,7 @@ import FaqPage from "./pages/FaqPage";
 import ForgotPasswordPage from "./pages/ForgotPasswordPage";
 import FormLayoutPage from "./pages/FormLayoutPage";
 import FormValidationPage from "./pages/FormValidationPage";
-// import FormPage from "./pages/FormPage";
+import FormPage from "./pages/FormPage";
 // import GalleryPage from "./pages/GalleryPage";
 // import ImageGeneratorPage from "./pages/ImageGeneratorPage";
 // import ImageUploadPage from "./pages/ImageUploadPage";
@@ -145,9 +145,9 @@ function App() {
         <Route exact path='/forgot-password' element={<ForgotPasswordPage />} />
         <Route exact path='/form-layout' element={<FormLayoutPage />} />
         <Route exact path='/form-validation' element={<FormValidationPage />} />
-        {/*   <Route exact path='/form' element={<FormPage />} />
+        <Route exact path='/form' element={<FormPage />} />
 
-        <Route exact path='/gallery' element={<GalleryPage />} />
+        {/*    <Route exact path='/gallery' element={<GalleryPage />} />
         <Route exact path='/gallery-grid' element={<GalleryGridPage />} />
         <Route exact path='/gallery-masonry' element={<GalleryMasonryPage />} />
         <Route exact path='/gallery-hover' element={<GalleryHoverPage />} />
