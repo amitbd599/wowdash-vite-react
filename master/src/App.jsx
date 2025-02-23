@@ -45,7 +45,7 @@ import ListPage from "./pages/ListPage";
 import MarketplaceDetailsPage from "./pages/MarketplaceDetailsPage";
 import MarketplacePage from "./pages/MarketplacePage";
 import NotificationAlertPage from "./pages/NotificationAlertPage";
-// import NotificationPage from "./pages/NotificationPage";
+import NotificationPage from "./pages/NotificationPage";
 // import PaginationPage from "./pages/PaginationPage";
 // import PaymentGatewayPage from "./pages/PaymentGatewayPage";
 // import PieChartPage from "./pages/PieChartPage";
@@ -183,8 +183,8 @@ function App() {
           path='/notification-alert'
           element={<NotificationAlertPage />}
         />
-        {/*   <Route exact path='/notification' element={<NotificationPage />} />
-        <Route exact path='/pagination' element={<PaginationPage />} />
+        <Route exact path='/notification' element={<NotificationPage />} />
+        {/*    <Route exact path='/pagination' element={<PaginationPage />} />
         <Route exact path='/payment-gateway' element={<PaymentGatewayPage />} />
         <Route exact path='/pie-chart' element={<PieChartPage />} />
         <Route exact path='/portfolio' element={<PortfolioPage />} />
