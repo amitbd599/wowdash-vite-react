@@ -36,7 +36,7 @@ import ImageGeneratorPage from "./pages/ImageGeneratorPage";
 import ImageUploadPage from "./pages/ImageUploadPage";
 import InvoiceAddPage from "./pages/InvoiceAddPage";
 import InvoiceEditPage from "./pages/InvoiceEditPage";
-// import InvoiceListPage from "./pages/InvoiceListPage";
+import InvoiceListPage from "./pages/InvoiceListPage";
 // import InvoicePreviewPage from "./pages/InvoicePreviewPage";
 // import KanbanPage from "./pages/KanbanPage";
 // import LanguagePage from "./pages/LanguagePage";
@@ -166,8 +166,8 @@ function App() {
         <Route exact path='/image-upload' element={<ImageUploadPage />} />
         <Route exact path='/invoice-add' element={<InvoiceAddPage />} />
         <Route exact path='/invoice-edit' element={<InvoiceEditPage />} />
-        {/*   <Route exact path='/invoice-list' element={<InvoiceListPage />} />
-        <Route exact path='/invoice-preview' element={<InvoicePreviewPage />} />
+        <Route exact path='/invoice-list' element={<InvoiceListPage />} />
+        {/*   <Route exact path='/invoice-preview' element={<InvoicePreviewPage />} />
         <Route exact path='/kanban' element={<KanbanPage />} />
         <Route exact path='/language' element={<LanguagePage />} />
         <Route exact path='/line-chart' element={<LineChartPage />} />
