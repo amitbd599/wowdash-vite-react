@@ -50,7 +50,7 @@ import PaginationPage from "./pages/PaginationPage";
 import PaymentGatewayPage from "./pages/PaymentGatewayPage";
 import PieChartPage from "./pages/PieChartPage";
 import PortfolioPage from "./pages/PortfolioPage";
-// import PricingPage from "./pages/PricingPage";
+import PricingPage from "./pages/PricingPage";
 // import ProgressPage from "./pages/ProgressPage";
 // import RadioPage from "./pages/RadioPage";
 // import RoleAccessPage from "./pages/RoleAccessPage";
@@ -188,8 +188,8 @@ function App() {
         <Route exact path='/payment-gateway' element={<PaymentGatewayPage />} />
         <Route exact path='/pie-chart' element={<PieChartPage />} />
         <Route exact path='/portfolio' element={<PortfolioPage />} />
-        {/*    <Route exact path='/pricing' element={<PricingPage />} />
-        <Route exact path='/progress' element={<ProgressPage />} />
+        <Route exact path='/pricing' element={<PricingPage />} />
+        {/*     <Route exact path='/progress' element={<ProgressPage />} />
         <Route exact path='/radio' element={<RadioPage />} />
         <Route exact path='/role-access' element={<RoleAccessPage />} />
         <Route exact path='/sign-in' element={<SignInPage />} />
