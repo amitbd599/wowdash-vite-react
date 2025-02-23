@@ -40,7 +40,7 @@ import InvoiceListPage from "./pages/InvoiceListPage";
 import InvoicePreviewPage from "./pages/InvoicePreviewPage";
 import KanbanPage from "./pages/KanbanPage";
 import LanguagePage from "./pages/LanguagePage";
-// import LineChartPage from "./pages/LineChartPage";
+import LineChartPage from "./pages/LineChartPage";
 // import ListPage from "./pages/ListPage";
 // import MarketplaceDetailsPage from "./pages/MarketplaceDetailsPage";
 // import MarketplacePage from "./pages/MarketplacePage";
@@ -170,8 +170,8 @@ function App() {
         <Route exact path='/invoice-preview' element={<InvoicePreviewPage />} />
         <Route exact path='/kanban' element={<KanbanPage />} />
         <Route exact path='/language' element={<LanguagePage />} />
-        {/*    <Route exact path='/line-chart' element={<LineChartPage />} />
-        <Route exact path='/list' element={<ListPage />} />
+        <Route exact path='/line-chart' element={<LineChartPage />} />
+        {/*   <Route exact path='/list' element={<ListPage />} />
         <Route
           exact
           path='/marketplace-details'
