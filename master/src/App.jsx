@@ -25,7 +25,7 @@ import ColumnChartPage from "./pages/ColumnChartPage";
 import CompanyPage from "./pages/CompanyPage";
 import CurrenciesPage from "./pages/CurrenciesPage";
 import DropdownPage from "./pages/DropdownPage";
-// import ErrorPage from "./pages/ErrorPage";
+import ErrorPage from "./pages/ErrorPage";
 import FaqPage from "./pages/FaqPage";
 import ForgotPasswordPage from "./pages/ForgotPasswordPage";
 import FormLayoutPage from "./pages/FormLayoutPage";
@@ -77,7 +77,7 @@ import ViewProfilePage from "./pages/ViewProfilePage";
 import VoiceGeneratorPage from "./pages/VoiceGeneratorPage";
 import WalletPage from "./pages/WalletPage";
 import WidgetsPage from "./pages/WidgetsPage";
-// import WizardPage from "./pages/WizardPage";
+import WizardPage from "./pages/WizardPage";
 // import RouteScrollToTop from "./helper/RouteScrollToTop";
 // import Demo from "./demo/Demo";
 import TextGeneratorNewPage from "./pages/TextGeneratorNewPage";
@@ -220,9 +220,9 @@ function App() {
         <Route exact path='/voice-generator' element={<VoiceGeneratorPage />} />
         <Route exact path='/wallet' element={<WalletPage />} />
         <Route exact path='/widgets' element={<WidgetsPage />} />
-        {/*     <Route exact path='/wizard' element={<WizardPage />} />
+        <Route exact path='/wizard' element={<WizardPage />} />
 
-        <Route exact path='*' element={<ErrorPage />} /> */}
+        <Route exact path='*' element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>
   );

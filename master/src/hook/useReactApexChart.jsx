@@ -1725,20 +1725,6 @@ const useReactApexChart = () => {
           top: 0,
           bottom: 0,
         },
-        // events: {
-        //     mounted: function (chartContext, config) {
-        //         // Apply CSS blur to markers
-        //         document.querySelectorAll(`#${color} .apexcharts-marker`).forEach(marker => {
-        //             marker.style.filter = 'blur(2px)';
-        //         });
-        //     },
-        //     updated: function (chartContext, config) {
-        //         // Apply CSS blur to markers
-        //         document.querySelectorAll(`#${chartId} .apexcharts-marker`).forEach(marker => {
-        //             marker.style.filter = 'blur(3px)';
-        //         });
-        //     }
-        // }
       },
       dataLabels: {
         enabled: false,
@@ -1841,6 +1827,7 @@ const useReactApexChart = () => {
         series={series}
         type='area'
         height={70}
+        width={100}
       />
     );
   };
