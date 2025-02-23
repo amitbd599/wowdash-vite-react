@@ -63,7 +63,7 @@ import TableBasicPage from "./pages/TableBasicPage";
 import TableDataPage from "./pages/TableDataPage";
 import TabsPage from "./pages/TabsPage";
 import TagsPage from "./pages/TagsPage";
-// import TermsConditionPage from "./pages/TermsConditionPage";
+import TermsConditionPage from "./pages/TermsConditionPage";
 // import TextGeneratorPage from "./pages/TextGeneratorPage";
 // import ThemePage from "./pages/ThemePage";
 // import TooltipPage from "./pages/TooltipPage";
@@ -201,8 +201,8 @@ function App() {
         <Route exact path='/table-data' element={<TableDataPage />} />
         <Route exact path='/tabs' element={<TabsPage />} />
         <Route exact path='/tags' element={<TagsPage />} />
-        {/*   <Route exact path='/terms-condition' element={<TermsConditionPage />} />
-        <Route
+        <Route exact path='/terms-condition' element={<TermsConditionPage />} />
+        {/*    <Route
           exact
           path='/text-generator-new'
           element={<TextGeneratorNewPage />}
