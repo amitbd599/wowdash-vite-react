@@ -78,8 +78,8 @@ import VoiceGeneratorPage from "./pages/VoiceGeneratorPage";
 import WalletPage from "./pages/WalletPage";
 import WidgetsPage from "./pages/WidgetsPage";
 import WizardPage from "./pages/WizardPage";
-// import RouteScrollToTop from "./helper/RouteScrollToTop";
-// import Demo from "./demo/Demo";
+import RouteScrollToTop from "./helper/RouteScrollToTop";
+import Demo from "./demo/Demo";
 import TextGeneratorNewPage from "./pages/TextGeneratorNewPage";
 import HomePageEight from "./pages/HomePageEight";
 import HomePageNine from "./pages/HomePageNine";
@@ -100,10 +100,10 @@ import BlankPagePage from "./pages/BlankPagePage";
 function App() {
   return (
     <BrowserRouter>
-      {/* <RouteScrollToTop /> */}
+      <RouteScrollToTop />
       <Routes>
-        {/* <Route exact path='/' element={<Demo />} /> */}
-        <Route exact path='/index' element={<HomePageOne />} />
+        <Route exact path='/' element={<Demo />} />
+        <Route exact path='/index-1' element={<HomePageOne />} />
         <Route exact path='/index-2' element={<HomePageTwo />} />
         <Route exact path='/index-3' element={<HomePageThree />} />
         <Route exact path='/index-4' element={<HomePageFour />} />
