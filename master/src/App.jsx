@@ -87,7 +87,7 @@ import HomePageTen from "./pages/HomePageTen";
 import HomePageEleven from "./pages/HomePageEleven";
 import GalleryGridPage from "./pages/GalleryGridPage";
 import GalleryMasonryPage from "./pages/GalleryMasonryPage";
-// import GalleryHoverPage from "./pages/GalleryHoverPage";
+import GalleryHoverPage from "./pages/GalleryHoverPage";
 // import BlogPage from "./pages/BlogPage";
 // import BlogDetailsPage from "./pages/BlogDetailsPage";
 // import AddBlogPage from "./pages/AddBlogPage";
@@ -150,9 +150,9 @@ function App() {
         <Route exact path='/gallery' element={<GalleryPage />} />
         <Route exact path='/gallery-grid' element={<GalleryGridPage />} />
         <Route exact path='/gallery-masonry' element={<GalleryMasonryPage />} />
-        {/*    <Route exact path='/gallery-hover' element={<GalleryHoverPage />} />
+        <Route exact path='/gallery-hover' element={<GalleryHoverPage />} />
 
-        <Route exact path='/blog' element={<BlogPage />} />
+        {/*    <Route exact path='/blog' element={<BlogPage />} />
         <Route exact path='/blog-details' element={<BlogDetailsPage />} />
         <Route exact path='/add-blog' element={<AddBlogPage />} />
 

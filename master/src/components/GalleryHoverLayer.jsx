@@ -1,4 +1,4 @@
-import React from "react";
+import LightGallery from "lightgallery/react";
 
 const GalleryHoverLayer = () => {
   return (
@@ -11,58 +11,66 @@ const GalleryHoverLayer = () => {
           <div className='row gy-4'>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img1.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img1.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img1.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img1.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img2.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img2.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img2.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img2.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img3.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img3.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img3.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img3.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img4.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img4.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img4.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img4.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
           </div>
@@ -76,58 +84,66 @@ const GalleryHoverLayer = () => {
           <div className='row gy-4'>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-two border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img5.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img5.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img5.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img5.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-two border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img6.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img6.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img6.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img6.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-two border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img7.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img7.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img7.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img7.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-two border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img8.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img8.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img8.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img8.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
           </div>
@@ -141,58 +157,66 @@ const GalleryHoverLayer = () => {
           <div className='row gy-4'>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-three border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img9.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img9.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img9.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img9.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-three border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img10.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img10.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img10.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img10.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-three border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img11.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img11.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img11.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img11.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-three border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img12.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img12.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img12.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img12.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
           </div>
@@ -206,58 +230,66 @@ const GalleryHoverLayer = () => {
           <div className='row gy-4'>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-four border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img1.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img1.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img1.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img1.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-four border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img2.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img2.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img2.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img2.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-four border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img3.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img3.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img3.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img3.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-four border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img4.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img4.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img4.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img4.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
           </div>
@@ -271,58 +303,66 @@ const GalleryHoverLayer = () => {
           <div className='row gy-4'>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-five border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img5.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img5.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img5.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img5.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-five border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img6.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img6.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img6.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img6.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-five border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img7.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img7.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img7.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img7.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-five border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img8.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img8.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img8.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img8.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
           </div>
@@ -336,58 +376,66 @@ const GalleryHoverLayer = () => {
           <div className='row gy-4'>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-six border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img9.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img9.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img9.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img9.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-six border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img10.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img10.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img10.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img10.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-six border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img11.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img11.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img11.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img11.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-six border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img12.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img12.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img12.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img12.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
           </div>
@@ -401,58 +449,66 @@ const GalleryHoverLayer = () => {
           <div className='row gy-4'>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-seven border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img1.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img1.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img1.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img1.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-seven border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img2.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img2.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img2.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img2.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-seven border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img3.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img3.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img3.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img3.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-seven border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img4.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img4.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img4.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img4.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
           </div>
@@ -466,58 +522,66 @@ const GalleryHoverLayer = () => {
           <div className='row gy-4'>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-eight border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img5.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img5.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img5.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img5.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-eight border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img6.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img6.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img6.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img6.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-eight border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img7.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img7.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img7.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img7.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-eight border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img8.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img8.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img8.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img8.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
           </div>
@@ -531,58 +595,66 @@ const GalleryHoverLayer = () => {
           <div className='row gy-4'>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-nine border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img9.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img9.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img9.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img9.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-nine border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img10.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img10.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img10.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img10.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-nine border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img11.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img11.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img11.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img11.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
             <div className='col-xxl-3 col-md-4 col-sm-6'>
               <div className='hover-scale-img style-nine border radius-16 overflow-hidden p-8'>
-                <a
-                  href='assets/images/gallery/gallery-img12.png'
-                  className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
-                >
-                  <img
-                    src='assets/images/gallery/gallery-img12.png'
-                    alt=''
-                    className='hover-scale-img__img w-100 h-100 object-fit-cover'
-                  />
-                </a>
+                <LightGallery>
+                  <a
+                    href='assets/images/gallery/gallery-img12.png'
+                    className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
+                  >
+                    <img
+                      src='assets/images/gallery/gallery-img12.png'
+                      alt=''
+                      className='hover-scale-img__img w-100 h-100 object-fit-cover'
+                    />
+                  </a>
+                </LightGallery>
               </div>
             </div>
           </div>

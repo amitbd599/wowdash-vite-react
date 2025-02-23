@@ -1,5 +1,4 @@
 import LightGallery from "lightgallery/react";
-import "lightgallery/css/lightgallery.css";
 
 const GalleryMasonryLayer = () => {
   return (
