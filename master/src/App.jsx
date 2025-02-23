@@ -67,12 +67,12 @@ import TermsConditionPage from "./pages/TermsConditionPage";
 import TextGeneratorPage from "./pages/TextGeneratorPage";
 import ThemePage from "./pages/ThemePage";
 import TooltipPage from "./pages/TooltipPage";
-// import TypographyPage from "./pages/TypographyPage";
-// import UsersGridPage from "./pages/UsersGridPage";
-// import UsersListPage from "./pages/UsersListPage";
-// import ViewDetailsPage from "./pages/ViewDetailsPage";
-// import VideoGeneratorPage from "./pages/VideoGeneratorPage";
-// import VideosPage from "./pages/VideosPage";
+import TypographyPage from "./pages/TypographyPage";
+import UsersGridPage from "./pages/UsersGridPage";
+import UsersListPage from "./pages/UsersListPage";
+import ViewDetailsPage from "./pages/ViewDetailsPage";
+import VideoGeneratorPage from "./pages/VideoGeneratorPage";
+import VideosPage from "./pages/VideosPage";
 // import ViewProfilePage from "./pages/ViewProfilePage";
 // import VoiceGeneratorPage from "./pages/VoiceGeneratorPage";
 // import WalletPage from "./pages/WalletPage";
@@ -210,13 +210,13 @@ function App() {
         <Route exact path='/text-generator' element={<TextGeneratorPage />} />
         <Route exact path='/theme' element={<ThemePage />} />
         <Route exact path='/tooltip' element={<TooltipPage />} />
-        {/*  <Route exact path='/typography' element={<TypographyPage />} />
+        <Route exact path='/typography' element={<TypographyPage />} />
         <Route exact path='/users-grid' element={<UsersGridPage />} />
         <Route exact path='/users-list' element={<UsersListPage />} />
         <Route exact path='/view-details' element={<ViewDetailsPage />} />
         <Route exact path='/video-generator' element={<VideoGeneratorPage />} />
         <Route exact path='/videos' element={<VideosPage />} />
-        <Route exact path='/view-profile' element={<ViewProfilePage />} />
+        {/*   <Route exact path='/view-profile' element={<ViewProfilePage />} />
         <Route exact path='/voice-generator' element={<VoiceGeneratorPage />} />
         <Route exact path='/wallet' element={<WalletPage />} />
         <Route exact path='/widgets' element={<WidgetsPage />} />
