@@ -43,7 +43,7 @@ import LanguagePage from "./pages/LanguagePage";
 import LineChartPage from "./pages/LineChartPage";
 import ListPage from "./pages/ListPage";
 import MarketplaceDetailsPage from "./pages/MarketplaceDetailsPage";
-// import MarketplacePage from "./pages/MarketplacePage";
+import MarketplacePage from "./pages/MarketplacePage";
 // import NotificationAlertPage from "./pages/NotificationAlertPage";
 // import NotificationPage from "./pages/NotificationPage";
 // import PaginationPage from "./pages/PaginationPage";
@@ -177,8 +177,8 @@ function App() {
           path='/marketplace-details'
           element={<MarketplaceDetailsPage />}
         />
-        {/* <Route exact path='/marketplace' element={<MarketplacePage />} />
-        <Route
+        <Route exact path='/marketplace' element={<MarketplacePage />} />
+        {/*   <Route
           exact
           path='/notification-alert'
           element={<NotificationAlertPage />}
