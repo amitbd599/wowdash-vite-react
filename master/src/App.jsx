@@ -60,7 +60,7 @@ import StarRatingPage from "./pages/StarRatingPage";
 import StarredPage from "./pages/StarredPage";
 import SwitchPage from "./pages/SwitchPage";
 import TableBasicPage from "./pages/TableBasicPage";
-// import TableDataPage from "./pages/TableDataPage";
+import TableDataPage from "./pages/TableDataPage";
 // import TabsPage from "./pages/TabsPage";
 // import TagsPage from "./pages/TagsPage";
 // import TermsConditionPage from "./pages/TermsConditionPage";
@@ -198,8 +198,8 @@ function App() {
         <Route exact path='/starred' element={<StarredPage />} />
         <Route exact path='/switch' element={<SwitchPage />} />
         <Route exact path='/table-basic' element={<TableBasicPage />} />
-        {/*    <Route exact path='/table-data' element={<TableDataPage />} />
-        <Route exact path='/tabs' element={<TabsPage />} />
+        <Route exact path='/table-data' element={<TableDataPage />} />
+        {/*    <Route exact path='/tabs' element={<TabsPage />} />
         <Route exact path='/tags' element={<TagsPage />} />
         <Route exact path='/terms-condition' element={<TermsConditionPage />} />
         <Route
