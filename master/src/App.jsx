@@ -65,8 +65,8 @@ import TabsPage from "./pages/TabsPage";
 import TagsPage from "./pages/TagsPage";
 import TermsConditionPage from "./pages/TermsConditionPage";
 import TextGeneratorPage from "./pages/TextGeneratorPage";
-// import ThemePage from "./pages/ThemePage";
-// import TooltipPage from "./pages/TooltipPage";
+import ThemePage from "./pages/ThemePage";
+import TooltipPage from "./pages/TooltipPage";
 // import TypographyPage from "./pages/TypographyPage";
 // import UsersGridPage from "./pages/UsersGridPage";
 // import UsersListPage from "./pages/UsersListPage";
@@ -208,9 +208,9 @@ function App() {
           element={<TextGeneratorNewPage />}
         />
         <Route exact path='/text-generator' element={<TextGeneratorPage />} />
-        {/*   <Route exact path='/theme' element={<ThemePage />} />
+        <Route exact path='/theme' element={<ThemePage />} />
         <Route exact path='/tooltip' element={<TooltipPage />} />
-        <Route exact path='/typography' element={<TypographyPage />} />
+        {/*  <Route exact path='/typography' element={<TypographyPage />} />
         <Route exact path='/users-grid' element={<UsersGridPage />} />
         <Route exact path='/users-list' element={<UsersListPage />} />
         <Route exact path='/view-details' element={<ViewDetailsPage />} />
