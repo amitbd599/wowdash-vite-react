@@ -95,7 +95,7 @@ import TestimonialsPage from "./pages/TestimonialsPage";
 import ComingSoonPage from "./pages/ComingSoonPage";
 import AccessDeniedPage from "./pages/AccessDeniedPage";
 import MaintenancePage from "./pages/MaintenancePage";
-// import BlankPagePage from "./pages/BlankPagePage";
+import BlankPagePage from "./pages/BlankPagePage";
 
 function App() {
   return (
@@ -160,9 +160,9 @@ function App() {
         <Route exact path='/coming-soon' element={<ComingSoonPage />} />
         <Route exact path='/access-denied' element={<AccessDeniedPage />} />
         <Route exact path='/maintenance' element={<MaintenancePage />} />
-        {/*     <Route exact path='/blank-page' element={<BlankPagePage />} />
+        <Route exact path='/blank-page' element={<BlankPagePage />} />
 
-        <Route exact path='/image-generator' element={<ImageGeneratorPage />} />
+        {/*   <Route exact path='/image-generator' element={<ImageGeneratorPage />} />
         <Route exact path='/image-upload' element={<ImageUploadPage />} />
         <Route exact path='/invoice-add' element={<InvoiceAddPage />} />
         <Route exact path='/invoice-edit' element={<InvoiceEditPage />} />
