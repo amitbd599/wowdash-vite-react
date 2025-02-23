@@ -32,7 +32,7 @@ import FormLayoutPage from "./pages/FormLayoutPage";
 import FormValidationPage from "./pages/FormValidationPage";
 import FormPage from "./pages/FormPage";
 import GalleryPage from "./pages/GalleryPage";
-// import ImageGeneratorPage from "./pages/ImageGeneratorPage";
+import ImageGeneratorPage from "./pages/ImageGeneratorPage";
 // import ImageUploadPage from "./pages/ImageUploadPage";
 // import InvoiceAddPage from "./pages/InvoiceAddPage";
 // import InvoiceEditPage from "./pages/InvoiceEditPage";
@@ -162,8 +162,8 @@ function App() {
         <Route exact path='/maintenance' element={<MaintenancePage />} />
         <Route exact path='/blank-page' element={<BlankPagePage />} />
 
-        {/*   <Route exact path='/image-generator' element={<ImageGeneratorPage />} />
-        <Route exact path='/image-upload' element={<ImageUploadPage />} />
+        <Route exact path='/image-generator' element={<ImageGeneratorPage />} />
+        {/*   <Route exact path='/image-upload' element={<ImageUploadPage />} />
         <Route exact path='/invoice-add' element={<InvoiceAddPage />} />
         <Route exact path='/invoice-edit' element={<InvoiceEditPage />} />
         <Route exact path='/invoice-list' element={<InvoiceListPage />} />
