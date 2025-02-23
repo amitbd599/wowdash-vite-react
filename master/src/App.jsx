@@ -41,7 +41,7 @@ import InvoicePreviewPage from "./pages/InvoicePreviewPage";
 import KanbanPage from "./pages/KanbanPage";
 import LanguagePage from "./pages/LanguagePage";
 import LineChartPage from "./pages/LineChartPage";
-// import ListPage from "./pages/ListPage";
+import ListPage from "./pages/ListPage";
 // import MarketplaceDetailsPage from "./pages/MarketplaceDetailsPage";
 // import MarketplacePage from "./pages/MarketplacePage";
 // import NotificationAlertPage from "./pages/NotificationAlertPage";
@@ -171,8 +171,8 @@ function App() {
         <Route exact path='/kanban' element={<KanbanPage />} />
         <Route exact path='/language' element={<LanguagePage />} />
         <Route exact path='/line-chart' element={<LineChartPage />} />
-        {/*   <Route exact path='/list' element={<ListPage />} />
-        <Route
+        <Route exact path='/list' element={<ListPage />} />
+        {/*  <Route
           exact
           path='/marketplace-details'
           element={<MarketplaceDetailsPage />}
