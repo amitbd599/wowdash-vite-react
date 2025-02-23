@@ -92,7 +92,7 @@ import BlogPage from "./pages/BlogPage";
 import BlogDetailsPage from "./pages/BlogDetailsPage";
 import AddBlogPage from "./pages/AddBlogPage";
 import TestimonialsPage from "./pages/TestimonialsPage";
-// import ComingSoonPage from "./pages/ComingSoonPage";
+import ComingSoonPage from "./pages/ComingSoonPage";
 // import AccessDeniedPage from "./pages/AccessDeniedPage";
 // import MaintenancePage from "./pages/MaintenancePage";
 // import BlankPagePage from "./pages/BlankPagePage";
@@ -157,8 +157,8 @@ function App() {
         <Route exact path='/add-blog' element={<AddBlogPage />} />
 
         <Route exact path='/testimonials' element={<TestimonialsPage />} />
-        {/*   <Route exact path='/coming-soon' element={<ComingSoonPage />} />
-        <Route exact path='/access-denied' element={<AccessDeniedPage />} />
+        <Route exact path='/coming-soon' element={<ComingSoonPage />} />
+        {/*    <Route exact path='/access-denied' element={<AccessDeniedPage />} />
         <Route exact path='/maintenance' element={<MaintenancePage />} />
         <Route exact path='/blank-page' element={<BlankPagePage />} />
 
