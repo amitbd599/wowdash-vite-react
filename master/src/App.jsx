@@ -73,7 +73,7 @@ import UsersListPage from "./pages/UsersListPage";
 import ViewDetailsPage from "./pages/ViewDetailsPage";
 import VideoGeneratorPage from "./pages/VideoGeneratorPage";
 import VideosPage from "./pages/VideosPage";
-// import ViewProfilePage from "./pages/ViewProfilePage";
+import ViewProfilePage from "./pages/ViewProfilePage";
 // import VoiceGeneratorPage from "./pages/VoiceGeneratorPage";
 // import WalletPage from "./pages/WalletPage";
 // import WidgetsPage from "./pages/WidgetsPage";
@@ -216,8 +216,8 @@ function App() {
         <Route exact path='/view-details' element={<ViewDetailsPage />} />
         <Route exact path='/video-generator' element={<VideoGeneratorPage />} />
         <Route exact path='/videos' element={<VideosPage />} />
-        {/*   <Route exact path='/view-profile' element={<ViewProfilePage />} />
-        <Route exact path='/voice-generator' element={<VoiceGeneratorPage />} />
+        <Route exact path='/view-profile' element={<ViewProfilePage />} />
+        {/*   <Route exact path='/voice-generator' element={<VoiceGeneratorPage />} />
         <Route exact path='/wallet' element={<WalletPage />} />
         <Route exact path='/widgets' element={<WidgetsPage />} />
         <Route exact path='/wizard' element={<WizardPage />} />
