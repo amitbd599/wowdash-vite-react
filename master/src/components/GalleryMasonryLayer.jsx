@@ -1,11 +1,12 @@
-import React from "react";
+import LightGallery from "lightgallery/react";
+import "lightgallery/css/lightgallery.css";
 
 const GalleryMasonryLayer = () => {
   return (
     <div className='card h-100 p-0 radius-12 overflow-hidden gallery-scale'>
       <div className='card-body p-24'>
         <div className='masonry-wrapper'>
-          <div className='hover-scale-img border radius-16 overflow-hidden p-8'>
+          <LightGallery className='hover-scale-img border radius-16 overflow-hidden p-8'>
             <a
               href='assets/images/gallery/gallery-img1.png'
               className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
@@ -16,8 +17,8 @@ const GalleryMasonryLayer = () => {
                 className='hover-scale-img__img w-100 h-100 object-fit-cover'
               />
             </a>
-          </div>
-          <div className='hover-scale-img border radius-16 overflow-hidden p-8'>
+          </LightGallery>
+          <LightGallery className='hover-scale-img border radius-16 overflow-hidden p-8'>
             <a
               href='assets/images/gallery/gallery-img2.png'
               className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
@@ -28,8 +29,8 @@ const GalleryMasonryLayer = () => {
                 className='hover-scale-img__img w-100 h-100 object-fit-cover'
               />
             </a>
-          </div>
-          <div className='hover-scale-img border radius-16 overflow-hidden p-8'>
+          </LightGallery>
+          <LightGallery className='hover-scale-img border radius-16 overflow-hidden p-8'>
             <a
               href='assets/images/gallery/gallery-img3.png'
               className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
@@ -40,8 +41,8 @@ const GalleryMasonryLayer = () => {
                 className='hover-scale-img__img w-100 h-100 object-fit-cover'
               />
             </a>
-          </div>
-          <div className='hover-scale-img border radius-16 overflow-hidden p-8'>
+          </LightGallery>
+          <LightGallery className='hover-scale-img border radius-16 overflow-hidden p-8'>
             <a
               href='assets/images/gallery/gallery-img4.png'
               className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
@@ -52,8 +53,8 @@ const GalleryMasonryLayer = () => {
                 className='hover-scale-img__img w-100 h-100 object-fit-cover'
               />
             </a>
-          </div>
-          <div className='hover-scale-img border radius-16 overflow-hidden p-8'>
+          </LightGallery>
+          <LightGallery className='hover-scale-img border radius-16 overflow-hidden p-8'>
             <a
               href='assets/images/gallery/gallery-img5.png'
               className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
@@ -64,8 +65,8 @@ const GalleryMasonryLayer = () => {
                 className='hover-scale-img__img w-100 h-100 object-fit-cover'
               />
             </a>
-          </div>
-          <div className='hover-scale-img border radius-16 overflow-hidden p-8'>
+          </LightGallery>
+          <LightGallery className='hover-scale-img border radius-16 overflow-hidden p-8'>
             <a
               href='assets/images/gallery/gallery-img6.png'
               className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
@@ -76,8 +77,8 @@ const GalleryMasonryLayer = () => {
                 className='hover-scale-img__img w-100 h-100 object-fit-cover'
               />
             </a>
-          </div>
-          <div className='hover-scale-img border radius-16 overflow-hidden p-8'>
+          </LightGallery>
+          <LightGallery className='hover-scale-img border radius-16 overflow-hidden p-8'>
             <a
               href='assets/images/gallery/gallery-img7.png'
               className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
@@ -88,8 +89,8 @@ const GalleryMasonryLayer = () => {
                 className='hover-scale-img__img w-100 h-100 object-fit-cover'
               />
             </a>
-          </div>
-          <div className='hover-scale-img border radius-16 overflow-hidden p-8'>
+          </LightGallery>
+          <LightGallery className='hover-scale-img border radius-16 overflow-hidden p-8'>
             <a
               href='assets/images/gallery/gallery-img8.png'
               className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
@@ -100,8 +101,8 @@ const GalleryMasonryLayer = () => {
                 className='hover-scale-img__img w-100 h-100 object-fit-cover'
               />
             </a>
-          </div>
-          <div className='hover-scale-img border radius-16 overflow-hidden p-8'>
+          </LightGallery>
+          <LightGallery className='hover-scale-img border radius-16 overflow-hidden p-8'>
             <a
               href='assets/images/gallery/gallery-img9.png'
               className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
@@ -112,8 +113,8 @@ const GalleryMasonryLayer = () => {
                 className='hover-scale-img__img w-100 h-100 object-fit-cover'
               />
             </a>
-          </div>
-          <div className='hover-scale-img border radius-16 overflow-hidden p-8'>
+          </LightGallery>
+          <LightGallery className='hover-scale-img border radius-16 overflow-hidden p-8'>
             <a
               href='assets/images/gallery/gallery-img10.png'
               className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
@@ -124,8 +125,8 @@ const GalleryMasonryLayer = () => {
                 className='hover-scale-img__img w-100 h-100 object-fit-cover'
               />
             </a>
-          </div>
-          <div className='hover-scale-img border radius-16 overflow-hidden p-8'>
+          </LightGallery>
+          <LightGallery className='hover-scale-img border radius-16 overflow-hidden p-8'>
             <a
               href='assets/images/gallery/gallery-img11.png'
               className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
@@ -136,8 +137,8 @@ const GalleryMasonryLayer = () => {
                 className='hover-scale-img__img w-100 h-100 object-fit-cover'
               />
             </a>
-          </div>
-          <div className='hover-scale-img border radius-16 overflow-hidden p-8'>
+          </LightGallery>
+          <LightGallery className='hover-scale-img border radius-16 overflow-hidden p-8'>
             <a
               href='assets/images/gallery/gallery-img12.png'
               className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
@@ -148,8 +149,8 @@ const GalleryMasonryLayer = () => {
                 className='hover-scale-img__img w-100 h-100 object-fit-cover'
               />
             </a>
-          </div>
-          <div className='hover-scale-img border radius-16 overflow-hidden p-8'>
+          </LightGallery>
+          <LightGallery className='hover-scale-img border radius-16 overflow-hidden p-8'>
             <a
               href='assets/images/gallery/gallery-img1.png'
               className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
@@ -160,8 +161,8 @@ const GalleryMasonryLayer = () => {
                 className='hover-scale-img__img w-100 h-100 object-fit-cover'
               />
             </a>
-          </div>
-          <div className='hover-scale-img border radius-16 overflow-hidden p-8'>
+          </LightGallery>
+          <LightGallery className='hover-scale-img border radius-16 overflow-hidden p-8'>
             <a
               href='assets/images/gallery/gallery-img2.png'
               className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
@@ -172,8 +173,8 @@ const GalleryMasonryLayer = () => {
                 className='hover-scale-img__img w-100 h-100 object-fit-cover'
               />
             </a>
-          </div>
-          <div className='hover-scale-img border radius-16 overflow-hidden p-8'>
+          </LightGallery>
+          <LightGallery className='hover-scale-img border radius-16 overflow-hidden p-8'>
             <a
               href='assets/images/gallery/gallery-img3.png'
               className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
@@ -184,8 +185,8 @@ const GalleryMasonryLayer = () => {
                 className='hover-scale-img__img w-100 h-100 object-fit-cover'
               />
             </a>
-          </div>
-          <div className='hover-scale-img border radius-16 overflow-hidden p-8'>
+          </LightGallery>
+          <LightGallery className='hover-scale-img border radius-16 overflow-hidden p-8'>
             <a
               href='assets/images/gallery/gallery-img4.png'
               className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
@@ -196,8 +197,8 @@ const GalleryMasonryLayer = () => {
                 className='hover-scale-img__img w-100 h-100 object-fit-cover'
               />
             </a>
-          </div>
-          <div className='hover-scale-img border radius-16 overflow-hidden p-8'>
+          </LightGallery>
+          <LightGallery className='hover-scale-img border radius-16 overflow-hidden p-8'>
             <a
               href='assets/images/gallery/gallery-img5.png'
               className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
@@ -208,8 +209,8 @@ const GalleryMasonryLayer = () => {
                 className='hover-scale-img__img w-100 h-100 object-fit-cover'
               />
             </a>
-          </div>
-          <div className='hover-scale-img border radius-16 overflow-hidden p-8'>
+          </LightGallery>
+          <LightGallery className='hover-scale-img border radius-16 overflow-hidden p-8'>
             <a
               href='assets/images/gallery/gallery-img6.png'
               className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
@@ -220,8 +221,8 @@ const GalleryMasonryLayer = () => {
                 className='hover-scale-img__img w-100 h-100 object-fit-cover'
               />
             </a>
-          </div>
-          <div className='hover-scale-img border radius-16 overflow-hidden p-8'>
+          </LightGallery>
+          <LightGallery className='hover-scale-img border radius-16 overflow-hidden p-8'>
             <a
               href='assets/images/gallery/gallery-img7.png'
               className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
@@ -232,8 +233,8 @@ const GalleryMasonryLayer = () => {
                 className='hover-scale-img__img w-100 h-100 object-fit-cover'
               />
             </a>
-          </div>
-          <div className='hover-scale-img border radius-16 overflow-hidden p-8'>
+          </LightGallery>
+          <LightGallery className='hover-scale-img border radius-16 overflow-hidden p-8'>
             <a
               href='assets/images/gallery/gallery-img8.png'
               className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
@@ -244,8 +245,8 @@ const GalleryMasonryLayer = () => {
                 className='hover-scale-img__img w-100 h-100 object-fit-cover'
               />
             </a>
-          </div>
-          <div className='hover-scale-img border radius-16 overflow-hidden p-8'>
+          </LightGallery>
+          <LightGallery className='hover-scale-img border radius-16 overflow-hidden p-8'>
             <a
               href='assets/images/gallery/gallery-img9.png'
               className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
@@ -256,8 +257,8 @@ const GalleryMasonryLayer = () => {
                 className='hover-scale-img__img w-100 h-100 object-fit-cover'
               />
             </a>
-          </div>
-          <div className='hover-scale-img border radius-16 overflow-hidden p-8'>
+          </LightGallery>
+          <LightGallery className='hover-scale-img border radius-16 overflow-hidden p-8'>
             <a
               href='assets/images/gallery/gallery-img10.png'
               className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
@@ -268,8 +269,8 @@ const GalleryMasonryLayer = () => {
                 className='hover-scale-img__img w-100 h-100 object-fit-cover'
               />
             </a>
-          </div>
-          <div className='hover-scale-img border radius-16 overflow-hidden p-8'>
+          </LightGallery>
+          <LightGallery className='hover-scale-img border radius-16 overflow-hidden p-8'>
             <a
               href='assets/images/gallery/gallery-img11.png'
               className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
@@ -280,8 +281,8 @@ const GalleryMasonryLayer = () => {
                 className='hover-scale-img__img w-100 h-100 object-fit-cover'
               />
             </a>
-          </div>
-          <div className='hover-scale-img border radius-16 overflow-hidden p-8'>
+          </LightGallery>
+          <LightGallery className='hover-scale-img border radius-16 overflow-hidden p-8'>
             <a
               href='assets/images/gallery/gallery-img12.png'
               className='popup-img w-100 h-100 d-flex radius-12 overflow-hidden'
@@ -292,7 +293,7 @@ const GalleryMasonryLayer = () => {
                 className='hover-scale-img__img w-100 h-100 object-fit-cover'
               />
             </a>
-          </div>
+          </LightGallery>
         </div>
       </div>
     </div>
