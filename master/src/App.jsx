@@ -75,7 +75,7 @@ import VideoGeneratorPage from "./pages/VideoGeneratorPage";
 import VideosPage from "./pages/VideosPage";
 import ViewProfilePage from "./pages/ViewProfilePage";
 import VoiceGeneratorPage from "./pages/VoiceGeneratorPage";
-// import WalletPage from "./pages/WalletPage";
+import WalletPage from "./pages/WalletPage";
 // import WidgetsPage from "./pages/WidgetsPage";
 // import WizardPage from "./pages/WizardPage";
 // import RouteScrollToTop from "./helper/RouteScrollToTop";
@@ -218,8 +218,8 @@ function App() {
         <Route exact path='/videos' element={<VideosPage />} />
         <Route exact path='/view-profile' element={<ViewProfilePage />} />
         <Route exact path='/voice-generator' element={<VoiceGeneratorPage />} />
-        {/*    <Route exact path='/wallet' element={<WalletPage />} />
-        <Route exact path='/widgets' element={<WidgetsPage />} />
+        <Route exact path='/wallet' element={<WalletPage />} />
+        {/*     <Route exact path='/widgets' element={<WidgetsPage />} />
         <Route exact path='/wizard' element={<WizardPage />} />
 
         <Route exact path='*' element={<ErrorPage />} /> */}
