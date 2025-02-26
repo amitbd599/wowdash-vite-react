@@ -1,4 +1,3 @@
-"use client";
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import Marquee from "react-fast-marquee";
@@ -6719,6 +6718,7 @@ font-size: 52px !important;
     };
   }, []);
 
+  // eslint-disable-next-line no-unused-vars
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {

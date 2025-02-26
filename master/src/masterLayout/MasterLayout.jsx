@@ -1,4 +1,5 @@
-import React, { useEffect, useRef, useState } from "react";
+/* eslint-disable react/prop-types */
+import { useEffect, useState } from "react";
 import { Icon } from "@iconify/react/dist/iconify.js";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import ThemeToggleButton from "../helper/ThemeToggleButton";
@@ -1958,7 +1959,7 @@ const MasterLayout = ({ children }) => {
         <footer className='d-footer'>
           <div className='row align-items-center justify-content-between'>
             <div className='col-auto'>
-              <p className='mb-0'>© 2024 WowDash. All Rights Reserved.</p>
+              <p className='mb-0'>© 2025 WowDash. All Rights Reserved.</p>
             </div>
             <div className='col-auto'>
               <p className='mb-0'>
