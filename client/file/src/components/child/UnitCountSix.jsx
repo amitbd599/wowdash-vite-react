@@ -65,7 +65,8 @@ const UnitCountSix = () => {
             </div>
             <p className='text-sm mb-0'>
               {" "}
-              <span className='text-primary-600'>170</span>New patients admitted
+              <span className='text-primary-600'>170 </span> New patients
+              admitted
             </p>
           </div>
         </div>
