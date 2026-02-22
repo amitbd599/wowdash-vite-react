@@ -9,7 +9,6 @@ function SampleNextArrow(props) {
       onClick={onClick}
       type='button'
       className={`${className} slick-next slick-arrow`}
-      style={{}}
     >
       <Icon icon='ic:outline-keyboard-arrow-right' className='menu-icon' />
     </button>
@@ -23,7 +22,6 @@ function SamplePrevArrow(props) {
       onClick={onClick}
       type='button'
       className={`${className} slick-prev slick-arrow`}
-      style={{}}
     >
       <Icon icon='ic:outline-keyboard-arrow-left' className='menu-icon' />
     </button>
@@ -53,7 +51,7 @@ const CarouselWithArrows = () => {
             <div className='gradient-overlay bottom-0 start-0 h-100'>
               <img
                 src='assets/images/carousel/carousel-img2.png'
-                alt=''
+                alt='WowDash React Vite'
                 className='w-100 h-100 object-fit-cover'
               />
               <div className='position-absolute start-50 translate-middle-x bottom-0 pb-24 z-1 text-center w-100 max-w-440-px'>
@@ -69,7 +67,7 @@ const CarouselWithArrows = () => {
             <div className='gradient-overlay bottom-0 start-0 h-100'>
               <img
                 src='assets/images/carousel/carousel-img4.png'
-                alt=''
+                alt='WowDash React Vite'
                 className='w-100 h-100 object-fit-cover'
               />
               <div className='position-absolute start-50 translate-middle-x bottom-0 pb-24 z-1 text-center w-100 max-w-440-px'>
@@ -85,7 +83,7 @@ const CarouselWithArrows = () => {
             <div className='gradient-overlay bottom-0 start-0 h-100'>
               <img
                 src='assets/images/carousel/carousel-img3.png'
-                alt=''
+                alt='WowDash React Vite'
                 className='w-100 h-100 object-fit-cover'
               />
               <div className='position-absolute start-50 translate-middle-x bottom-0 pb-24 z-1 text-center w-100 max-w-440-px'>

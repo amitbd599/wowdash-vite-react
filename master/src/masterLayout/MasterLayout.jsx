@@ -41,7 +41,7 @@ const MasterLayout = ({ children }) => {
 
     // Attach click event listeners to all dropdown triggers
     const dropdownTriggers = document.querySelectorAll(
-      ".sidebar-menu .dropdown > a, .sidebar-menu .dropdown > Link"
+      ".sidebar-menu .dropdown > a, .sidebar-menu .dropdown > Link",
     );
 
     dropdownTriggers.forEach((trigger) => {
@@ -94,8 +94,8 @@ const MasterLayout = ({ children }) => {
           sidebarActive
             ? "sidebar active "
             : mobileMenu
-            ? "sidebar sidebar-open"
-            : "sidebar"
+              ? "sidebar sidebar-open"
+              : "sidebar"
         }
       >
         <button
@@ -219,7 +219,7 @@ const MasterLayout = ({ children }) => {
                       navData.isActive ? "active-page" : ""
                     }
                   >
-                    <i className='ri-circle-fill circle-icon text-info-main w-auto' />{" "}
+                    <i className='ri-circle-fill circle-icon text-warning-main w-auto' />{" "}
                     Medical
                   </NavLink>
                 </li>
@@ -241,7 +241,7 @@ const MasterLayout = ({ children }) => {
                       navData.isActive ? "active-page" : ""
                     }
                   >
-                    <i className='ri-circle-fill circle-icon text-info-main w-auto' />{" "}
+                    <i className='ri-circle-fill circle-icon text-warning-main w-auto' />{" "}
                     POS & Inventory
                   </NavLink>
                 </li>
@@ -252,8 +252,19 @@ const MasterLayout = ({ children }) => {
                       navData.isActive ? "active-page" : ""
                     }
                   >
-                    <i className='ri-circle-fill circle-icon text-info-main w-auto' />{" "}
+                    <i className='ri-circle-fill circle-icon text-info-purple w-auto' />{" "}
                     Finance & Banking
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to='/index-12'
+                    className={(navData) =>
+                      navData.isActive ? "active-page" : ""
+                    }
+                  >
+                    <i className='ri-circle-fill circle-icon text-warning-main w-auto' />{" "}
+                    Booking System
                   </NavLink>
                 </li>
               </ul>

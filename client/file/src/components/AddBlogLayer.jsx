@@ -252,7 +252,7 @@ const AddBlogLayer = () => {
                 >
                   <img
                     src='assets/images/blog/blog1.png'
-                    alt=''
+                    alt='WowDash React Vite'
                     className='w-100 h-100 object-fit-cover'
                   />
                 </Link>
@@ -279,7 +279,7 @@ const AddBlogLayer = () => {
                 >
                   <img
                     src='assets/images/blog/blog2.png'
-                    alt=''
+                    alt='WowDash React Vite'
                     className='w-100 h-100 object-fit-cover'
                   />
                 </Link>
@@ -306,7 +306,7 @@ const AddBlogLayer = () => {
                 >
                   <img
                     src='assets/images/blog/blog3.png'
-                    alt=''
+                    alt='WowDash React Vite'
                     className='w-100 h-100 object-fit-cover'
                   />
                 </Link>
@@ -333,7 +333,7 @@ const AddBlogLayer = () => {
                 >
                   <img
                     src='assets/images/blog/blog4.png'
-                    alt=''
+                    alt='WowDash React Vite'
                     className='w-100 h-100 object-fit-cover'
                   />
                 </Link>
@@ -360,7 +360,7 @@ const AddBlogLayer = () => {
                 >
                   <img
                     src='assets/images/blog/blog5.png'
-                    alt=''
+                    alt='WowDash React Vite'
                     className='w-100 h-100 object-fit-cover'
                   />
                 </Link>
@@ -387,7 +387,7 @@ const AddBlogLayer = () => {
                 >
                   <img
                     src='assets/images/blog/blog6.png'
-                    alt=''
+                    alt='WowDash React Vite'
                     className='w-100 h-100 object-fit-cover'
                   />
                 </Link>
@@ -414,7 +414,7 @@ const AddBlogLayer = () => {
                 >
                   <img
                     src='assets/images/blog/blog7.png'
-                    alt=''
+                    alt='WowDash React Vite'
                     className='w-100 h-100 object-fit-cover'
                   />
                 </Link>

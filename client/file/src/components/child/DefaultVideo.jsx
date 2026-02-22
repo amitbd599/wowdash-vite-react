@@ -16,7 +16,7 @@ const DefaultVideo = () => {
             <img
               src='assets/images/videos/video-img1.png'
               className='w-100 h-100 object-fit-cover radius-8'
-              alt=''
+              alt='WowDash React Vite'
             />
             <Link
               onClick={() => setOpen(true)}

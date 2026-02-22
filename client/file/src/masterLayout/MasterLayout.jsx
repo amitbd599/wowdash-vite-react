@@ -1353,7 +1353,7 @@ const MasterLayout = ({ children }) => {
                           <span className='text-black hover-bg-transparent hover-text-primary d-flex align-items-center gap-3'>
                             <img
                               src='assets/images/flags/flag1.png'
-                              alt=''
+                              alt='WowDash React Vite'
                               className='w-36-px h-36-px bg-success-subtle text-success-main rounded-circle flex-shrink-0'
                             />
                             <span className='text-md fw-semibold mb-0'>
@@ -1376,7 +1376,7 @@ const MasterLayout = ({ children }) => {
                           <span className='text-black hover-bg-transparent hover-text-primary d-flex align-items-center gap-3'>
                             <img
                               src='assets/images/flags/flag2.png'
-                              alt=''
+                              alt='WowDash React Vite'
                               className='w-36-px h-36-px bg-success-subtle text-success-main rounded-circle flex-shrink-0'
                             />
                             <span className='text-md fw-semibold mb-0'>
@@ -1399,7 +1399,7 @@ const MasterLayout = ({ children }) => {
                           <span className='text-black hover-bg-transparent hover-text-primary d-flex align-items-center gap-3'>
                             <img
                               src='assets/images/flags/flag3.png'
-                              alt=''
+                              alt='WowDash React Vite'
                               className='w-36-px h-36-px bg-success-subtle text-success-main rounded-circle flex-shrink-0'
                             />
                             <span className='text-md fw-semibold mb-0'>
@@ -1422,7 +1422,7 @@ const MasterLayout = ({ children }) => {
                           <span className='text-black hover-bg-transparent hover-text-primary d-flex align-items-center gap-3'>
                             <img
                               src='assets/images/flags/flag4.png'
-                              alt=''
+                              alt='WowDash React Vite'
                               className='w-36-px h-36-px bg-success-subtle text-success-main rounded-circle flex-shrink-0'
                             />
                             <span className='text-md fw-semibold mb-0'>
@@ -1445,7 +1445,7 @@ const MasterLayout = ({ children }) => {
                           <span className='text-black hover-bg-transparent hover-text-primary d-flex align-items-center gap-3'>
                             <img
                               src='assets/images/flags/flag5.png'
-                              alt=''
+                              alt='WowDash React Vite'
                               className='w-36-px h-36-px bg-success-subtle text-success-main rounded-circle flex-shrink-0'
                             />
                             <span className='text-md fw-semibold mb-0'>
@@ -1468,7 +1468,7 @@ const MasterLayout = ({ children }) => {
                           <span className='text-black hover-bg-transparent hover-text-primary d-flex align-items-center gap-3'>
                             <img
                               src='assets/images/flags/flag6.png'
-                              alt=''
+                              alt='WowDash React Vite'
                               className='w-36-px h-36-px bg-success-subtle text-success-main rounded-circle flex-shrink-0'
                             />
                             <span className='text-md fw-semibold mb-0'>
@@ -1491,7 +1491,7 @@ const MasterLayout = ({ children }) => {
                           <span className='text-black hover-bg-transparent hover-text-primary d-flex align-items-center gap-3'>
                             <img
                               src='assets/images/flags/flag7.png'
-                              alt=''
+                              alt='WowDash React Vite'
                               className='w-36-px h-36-px bg-success-subtle text-success-main rounded-circle flex-shrink-0'
                             />
                             <span className='text-md fw-semibold mb-0'>
@@ -1514,7 +1514,7 @@ const MasterLayout = ({ children }) => {
                           <span className='text-black hover-bg-transparent hover-text-primary d-flex align-items-center gap-3'>
                             <img
                               src='assets/images/flags/flag8.png'
-                              alt=''
+                              alt='WowDash React Vite'
                               className='w-36-px h-36-px bg-success-subtle text-success-main rounded-circle flex-shrink-0'
                             />
                             <span className='text-md fw-semibold mb-0'>
@@ -1564,7 +1564,7 @@ const MasterLayout = ({ children }) => {
                           <span className='w-40-px h-40-px rounded-circle flex-shrink-0 position-relative'>
                             <img
                               src='assets/images/notification/profile-3.png'
-                              alt=''
+                              alt='WowDash React Vite'
                             />
                             <span className='w-8-px h-8-px bg-success-main rounded-circle position-absolute end-0 bottom-0' />
                           </span>
@@ -1594,7 +1594,7 @@ const MasterLayout = ({ children }) => {
                           <span className='w-40-px h-40-px rounded-circle flex-shrink-0 position-relative'>
                             <img
                               src='assets/images/notification/profile-4.png'
-                              alt=''
+                              alt='WowDash React Vite'
                             />
                             <span className='w-8-px h-8-px  bg-neutral-300 rounded-circle position-absolute end-0 bottom-0' />
                           </span>
@@ -1624,7 +1624,7 @@ const MasterLayout = ({ children }) => {
                           <span className='w-40-px h-40-px rounded-circle flex-shrink-0 position-relative'>
                             <img
                               src='assets/images/notification/profile-5.png'
-                              alt=''
+                              alt='WowDash React Vite'
                             />
                             <span className='w-8-px h-8-px bg-success-main rounded-circle position-absolute end-0 bottom-0' />
                           </span>
@@ -1654,7 +1654,7 @@ const MasterLayout = ({ children }) => {
                           <span className='w-40-px h-40-px rounded-circle flex-shrink-0 position-relative'>
                             <img
                               src='assets/images/notification/profile-6.png'
-                              alt=''
+                              alt='WowDash React Vite'
                             />
                             <span className='w-8-px h-8-px bg-neutral-300 rounded-circle position-absolute end-0 bottom-0' />
                           </span>
@@ -1684,7 +1684,7 @@ const MasterLayout = ({ children }) => {
                           <span className='w-40-px h-40-px rounded-circle flex-shrink-0 position-relative'>
                             <img
                               src='assets/images/notification/profile-7.png'
-                              alt=''
+                              alt='WowDash React Vite'
                             />
                             <span className='w-8-px h-8-px bg-success-main rounded-circle position-absolute end-0 bottom-0' />
                           </span>
@@ -1774,7 +1774,7 @@ const MasterLayout = ({ children }) => {
                           <span className='w-44-px h-44-px bg-success-subtle text-success-main rounded-circle d-flex justify-content-center align-items-center flex-shrink-0'>
                             <img
                               src='assets/images/notification/profile-1.png'
-                              alt=''
+                              alt='WowDash React Vite'
                             />
                           </span>
                           <div>
@@ -1819,7 +1819,7 @@ const MasterLayout = ({ children }) => {
                           <span className='w-44-px h-44-px bg-success-subtle text-success-main rounded-circle d-flex justify-content-center align-items-center flex-shrink-0'>
                             <img
                               src='assets/images/notification/profile-2.png'
-                              alt=''
+                              alt='WowDash React Vite'
                             />
                           </span>
                           <div>

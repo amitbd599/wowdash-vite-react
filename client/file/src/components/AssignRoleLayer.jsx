@@ -90,7 +90,7 @@ const AssignRoleLayer = () => {
                   <div className='d-flex align-items-center'>
                     <img
                       src='assets/images/user-list/user-list1.png'
-                      alt=''
+                      alt='WowDash React Vite'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <div className='flex-grow-1'>
@@ -111,7 +111,7 @@ const AssignRoleLayer = () => {
                     >
                       Assign Role
                     </button>
-                    <ul className='dropdown-menu' style={{}}>
+                    <ul className='dropdown-menu'>
                       <li>
                         <Link
                           className='dropdown-item px-16 py-8 rounded text-secondary-light bg-hover-neutral-200 text-hover-neutral-900'
@@ -181,7 +181,7 @@ const AssignRoleLayer = () => {
                   <div className='d-flex align-items-center'>
                     <img
                       src='assets/images/user-list/user-list2.png'
-                      alt=''
+                      alt='WowDash React Vite'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <div className='flex-grow-1'>
@@ -202,7 +202,7 @@ const AssignRoleLayer = () => {
                     >
                       Assign Role
                     </button>
-                    <ul className='dropdown-menu' style={{}}>
+                    <ul className='dropdown-menu'>
                       <li>
                         <Link
                           className='dropdown-item px-16 py-8 rounded text-secondary-light bg-hover-neutral-200 text-hover-neutral-900'
@@ -272,7 +272,7 @@ const AssignRoleLayer = () => {
                   <div className='d-flex align-items-center'>
                     <img
                       src='assets/images/user-list/user-list3.png'
-                      alt=''
+                      alt='WowDash React Vite'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <div className='flex-grow-1'>
@@ -293,7 +293,7 @@ const AssignRoleLayer = () => {
                     >
                       Assign Role
                     </button>
-                    <ul className='dropdown-menu' style={{}}>
+                    <ul className='dropdown-menu'>
                       <li>
                         <Link
                           className='dropdown-item px-16 py-8 rounded text-secondary-light bg-hover-neutral-200 text-hover-neutral-900'
@@ -363,7 +363,7 @@ const AssignRoleLayer = () => {
                   <div className='d-flex align-items-center'>
                     <img
                       src='assets/images/user-list/user-list4.png'
-                      alt=''
+                      alt='WowDash React Vite'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <div className='flex-grow-1'>
@@ -384,7 +384,7 @@ const AssignRoleLayer = () => {
                     >
                       Assign Role
                     </button>
-                    <ul className='dropdown-menu' style={{}}>
+                    <ul className='dropdown-menu'>
                       <li>
                         <Link
                           className='dropdown-item px-16 py-8 rounded text-secondary-light bg-hover-neutral-200 text-hover-neutral-900'
@@ -454,7 +454,7 @@ const AssignRoleLayer = () => {
                   <div className='d-flex align-items-center'>
                     <img
                       src='assets/images/user-list/user-list5.png'
-                      alt=''
+                      alt='WowDash React Vite'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <div className='flex-grow-1'>
@@ -475,7 +475,7 @@ const AssignRoleLayer = () => {
                     >
                       Assign Role
                     </button>
-                    <ul className='dropdown-menu' style={{}}>
+                    <ul className='dropdown-menu'>
                       <li>
                         <Link
                           className='dropdown-item px-16 py-8 rounded text-secondary-light bg-hover-neutral-200 text-hover-neutral-900'
@@ -545,7 +545,7 @@ const AssignRoleLayer = () => {
                   <div className='d-flex align-items-center'>
                     <img
                       src='assets/images/user-list/user-list6.png'
-                      alt=''
+                      alt='WowDash React Vite'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <div className='flex-grow-1'>
@@ -566,7 +566,7 @@ const AssignRoleLayer = () => {
                     >
                       Assign Role
                     </button>
-                    <ul className='dropdown-menu' style={{}}>
+                    <ul className='dropdown-menu'>
                       <li>
                         <Link
                           className='dropdown-item px-16 py-8 rounded text-secondary-light bg-hover-neutral-200 text-hover-neutral-900'
@@ -636,7 +636,7 @@ const AssignRoleLayer = () => {
                   <div className='d-flex align-items-center'>
                     <img
                       src='assets/images/user-list/user-list7.png'
-                      alt=''
+                      alt='WowDash React Vite'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <div className='flex-grow-1'>
@@ -657,7 +657,7 @@ const AssignRoleLayer = () => {
                     >
                       Assign Role
                     </button>
-                    <ul className='dropdown-menu' style={{}}>
+                    <ul className='dropdown-menu'>
                       <li>
                         <Link
                           className='dropdown-item px-16 py-8 rounded text-secondary-light bg-hover-neutral-200 text-hover-neutral-900'
@@ -727,7 +727,7 @@ const AssignRoleLayer = () => {
                   <div className='d-flex align-items-center'>
                     <img
                       src='assets/images/user-list/user-list8.png'
-                      alt=''
+                      alt='WowDash React Vite'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <div className='flex-grow-1'>
@@ -748,7 +748,7 @@ const AssignRoleLayer = () => {
                     >
                       Assign Role
                     </button>
-                    <ul className='dropdown-menu' style={{}}>
+                    <ul className='dropdown-menu'>
                       <li>
                         <Link
                           className='dropdown-item px-16 py-8 rounded text-secondary-light bg-hover-neutral-200 text-hover-neutral-900'
@@ -818,7 +818,7 @@ const AssignRoleLayer = () => {
                   <div className='d-flex align-items-center'>
                     <img
                       src='assets/images/user-list/user-list2.png'
-                      alt=''
+                      alt='WowDash React Vite'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <div className='flex-grow-1'>
@@ -839,7 +839,7 @@ const AssignRoleLayer = () => {
                     >
                       Assign Role
                     </button>
-                    <ul className='dropdown-menu' style={{}}>
+                    <ul className='dropdown-menu'>
                       <li>
                         <Link
                           className='dropdown-item px-16 py-8 rounded text-secondary-light bg-hover-neutral-200 text-hover-neutral-900'
@@ -909,7 +909,7 @@ const AssignRoleLayer = () => {
                   <div className='d-flex align-items-center'>
                     <img
                       src='assets/images/user-list/user-list10.png'
-                      alt=''
+                      alt='WowDash React Vite'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <div className='flex-grow-1'>
@@ -930,7 +930,7 @@ const AssignRoleLayer = () => {
                     >
                       Assign Role
                     </button>
-                    <ul className='dropdown-menu' style={{}}>
+                    <ul className='dropdown-menu'>
                       <li>
                         <Link
                           className='dropdown-item px-16 py-8 rounded text-secondary-light bg-hover-neutral-200 text-hover-neutral-900'

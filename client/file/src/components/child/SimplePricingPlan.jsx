@@ -43,7 +43,10 @@ const SimplePricingPlan = () => {
                 <div className='pricing-plan position-relative radius-24 overflow-hidden border bg-base'>
                   <div className='d-flex align-items-center gap-16'>
                     <span className='w-72-px h-72-px d-flex justify-content-center align-items-center radius-16 bg-primary-50'>
-                      <img src='assets/images/pricing/price-icon4.png' alt='' />
+                      <img
+                        src='assets/images/pricing/price-icon4.png'
+                        alt='WowDash React Vite'
+                      />
                     </span>
                     <div className=''>
                       <span className='fw-medium text-md text-secondary-light'>
@@ -118,7 +121,7 @@ const SimplePricingPlan = () => {
                 <div className='pricing-plan featured-item position-relative radius-24 overflow-hidden border bg-primary-600 text-white z-1'>
                   <img
                     src='assets/images/pricing/pricing-shape.png'
-                    alt=''
+                    alt='WowDash React Vite'
                     className='position-absolute end-0 top-10 z-n1'
                   />
                   <span className='bg-white bg-opacity-25 text-white radius-24 py-8 px-24 text-sm position-absolute end-0 top-0 z-1 rounded-start-top-0 rounded-end-bottom-0'>
@@ -126,7 +129,10 @@ const SimplePricingPlan = () => {
                   </span>
                   <div className='d-flex align-items-center gap-16'>
                     <span className='w-72-px h-72-px d-flex justify-content-center align-items-center radius-16 bg-base'>
-                      <img src='assets/images/pricing/price-icon2.png' alt='' />
+                      <img
+                        src='assets/images/pricing/price-icon2.png'
+                        alt='WowDash React Vite'
+                      />
                     </span>
                     <div className=''>
                       <span className='fw-medium text-md text-white'>
@@ -199,7 +205,10 @@ const SimplePricingPlan = () => {
                 <div className='pricing-plan position-relative radius-24 overflow-hidden border bg-base'>
                   <div className='d-flex align-items-center gap-16'>
                     <span className='w-72-px h-72-px d-flex justify-content-center align-items-center radius-16 bg-primary-50'>
-                      <img src='assets/images/pricing/price-icon5.png' alt='' />
+                      <img
+                        src='assets/images/pricing/price-icon5.png'
+                        alt='WowDash React Vite'
+                      />
                     </span>
                     <div className=''>
                       <span className='fw-medium text-md text-secondary-light'>

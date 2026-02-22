@@ -81,7 +81,7 @@ const ButtonTabs = () => {
                   <img
                     src='assets/images/tabs/tabs-image1.png'
                     className='radius-8'
-                    alt=''
+                    alt='WowDash React Vite'
                   />
                 </div>
                 <div className='flex-grow-1'>
@@ -112,7 +112,7 @@ const ButtonTabs = () => {
                   <img
                     src='assets/images/tabs/tabs-image2.png'
                     className='radius-8'
-                    alt=''
+                    alt='WowDash React Vite'
                   />
                 </div>
                 <div className='flex-grow-1'>
@@ -143,7 +143,7 @@ const ButtonTabs = () => {
                   <img
                     src='assets/images/tabs/tabs-image1.png'
                     className='radius-8'
-                    alt=''
+                    alt='WowDash React Vite'
                   />
                 </div>
                 <div className='flex-grow-1'>
@@ -174,7 +174,7 @@ const ButtonTabs = () => {
                   <img
                     src='assets/images/tabs/tabs-image2.png'
                     className='radius-8'
-                    alt=''
+                    alt='WowDash React Vite'
                   />
                 </div>
                 <div className='flex-grow-1'>

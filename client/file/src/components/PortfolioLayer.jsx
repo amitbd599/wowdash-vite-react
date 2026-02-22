@@ -112,7 +112,7 @@ const PortfolioLayer = () => {
                   >
                     <img
                       src='assets/images/crypto/crypto-img1.png'
-                      alt=''
+                      alt='WowDash React Vite'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <span className='flex-grow-1 d-flex flex-column'>
@@ -175,7 +175,7 @@ const PortfolioLayer = () => {
                   >
                     <img
                       src='assets/images/crypto/crypto-img2.png'
-                      alt=''
+                      alt='WowDash React Vite'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <span className='flex-grow-1 d-flex flex-column'>
@@ -238,7 +238,7 @@ const PortfolioLayer = () => {
                   >
                     <img
                       src='assets/images/crypto/crypto-img3.png'
-                      alt=''
+                      alt='WowDash React Vite'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <span className='flex-grow-1 d-flex flex-column'>
@@ -301,7 +301,7 @@ const PortfolioLayer = () => {
                   >
                     <img
                       src='assets/images/crypto/crypto-img4.png'
-                      alt=''
+                      alt='WowDash React Vite'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <span className='flex-grow-1 d-flex flex-column'>
@@ -364,7 +364,7 @@ const PortfolioLayer = () => {
                   >
                     <img
                       src='assets/images/crypto/crypto-img6.png'
-                      alt=''
+                      alt='WowDash React Vite'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <span className='flex-grow-1 d-flex flex-column'>
@@ -427,7 +427,7 @@ const PortfolioLayer = () => {
                   >
                     <img
                       src='assets/images/crypto/crypto-img5.png'
-                      alt=''
+                      alt='WowDash React Vite'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <span className='flex-grow-1 d-flex flex-column'>
@@ -490,7 +490,7 @@ const PortfolioLayer = () => {
                   >
                     <img
                       src='assets/images/crypto/crypto-img5.png'
-                      alt=''
+                      alt='WowDash React Vite'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <span className='flex-grow-1 d-flex flex-column'>
@@ -553,7 +553,7 @@ const PortfolioLayer = () => {
                   >
                     <img
                       src='assets/images/crypto/crypto-img5.png'
-                      alt=''
+                      alt='WowDash React Vite'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <span className='flex-grow-1 d-flex flex-column'>
@@ -616,7 +616,7 @@ const PortfolioLayer = () => {
                   >
                     <img
                       src='assets/images/crypto/crypto-img5.png'
-                      alt=''
+                      alt='WowDash React Vite'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <span className='flex-grow-1 d-flex flex-column'>
@@ -679,7 +679,7 @@ const PortfolioLayer = () => {
                   >
                     <img
                       src='assets/images/crypto/crypto-img5.png'
-                      alt=''
+                      alt='WowDash React Vite'
                       className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                     />
                     <span className='flex-grow-1 d-flex flex-column'>

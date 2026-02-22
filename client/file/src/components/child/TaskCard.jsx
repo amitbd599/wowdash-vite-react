@@ -1,7 +1,8 @@
+/* eslint-disable react/prop-types */
 import { Draggable } from "@hello-pangea/dnd";
 import { Icon } from "@iconify/react/dist/iconify.js";
 
-const TaskCard = ({ task, index, onEdit, onDelete, onDuplicate }) => {
+const TaskCard = ({ task, index, onEdit, onDelete }) => {
   return (
     <Draggable draggableId={task.id} index={index}>
       {(provided, snapshot) => (
@@ -23,7 +24,7 @@ const TaskCard = ({ task, index, onEdit, onDelete, onDuplicate }) => {
             >
               <img
                 src={task.image}
-                alt=''
+                alt='WowDash React Vite'
                 className='w-100 h-100 object-fit-cover'
               />
             </div>

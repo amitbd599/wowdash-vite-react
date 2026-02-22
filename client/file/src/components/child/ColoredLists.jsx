@@ -12,7 +12,7 @@ const ColoredLists = () => {
                 <img
                   src='assets/images/lists/list-img1.png'
                   className='w-32-px h-32-px rounded-circle'
-                  alt=''
+                  alt='WowDash React Vite'
                 />
                 Push Notification (This is push notifications)
               </div>
@@ -22,7 +22,7 @@ const ColoredLists = () => {
                 <img
                   src='assets/images/lists/list-img2.png'
                   className='w-32-px h-32-px rounded-circle'
-                  alt=''
+                  alt='WowDash React Vite'
                 />
                 New Orders confirmed (This is Orders confirmed)
               </div>
@@ -32,7 +32,7 @@ const ColoredLists = () => {
                 <img
                   src='assets/images/lists/list-img3.png'
                   className='w-32-px h-32-px rounded-circle'
-                  alt=''
+                  alt='WowDash React Vite'
                 />
                 Security Access (This is Security Access)
               </div>
@@ -42,7 +42,7 @@ const ColoredLists = () => {
                 <img
                   src='assets/images/lists/list-img4.png'
                   className='w-32-px h-32-px rounded-circle'
-                  alt=''
+                  alt='WowDash React Vite'
                 />
                 Storage Folder (This is Storage Folder)
               </div>
@@ -52,7 +52,7 @@ const ColoredLists = () => {
                 <img
                   src='assets/images/lists/list-img5.png'
                   className='w-32-px h-32-px rounded-circle'
-                  alt=''
+                  alt='WowDash React Vite'
                 />
                 Forward Message (This is Forward Message)
               </div>

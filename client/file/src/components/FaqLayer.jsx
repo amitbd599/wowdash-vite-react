@@ -8,12 +8,12 @@ const FaqLayer = () => {
               <h4 className='mb-20'>Frequently asked questions.</h4>
               <p className='mb-0 text-secondary-light max-w-634-px text-xl'>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry&apos;s standard du text
-                ever since the 1500s, when an unkn
+                industry. Lorem Ipsum has been the industry&apos;s standard du
+                text ever since the 1500s, when an unkn
               </p>
             </div>
             <div className='col-xl-5 d-xl-block d-none'>
-              <img src='assets/images/faq-img.png' alt='' />
+              <img src='assets/images/faq-img.png' alt='WowDash React Vite' />
             </div>
           </div>
         </div>

@@ -31,13 +31,16 @@ const MyCardsOne = () => {
                 <div className='p-20 h-240-px radius-8 overflow-hidden position-relative z-1'>
                   <img
                     src='assets/images/card/card-bg.png'
-                    alt=''
+                    alt='WowDash React Vite'
                     className='position-absolute start-0 top-0 w-100 h-100 object-fit-cover z-n1'
                   />
                   <div className='d-flex flex-column justify-content-between h-100'>
                     <div className='d-flex align-items-center justify-content-between flex-wrap'>
                       <h6 className='text-white mb-0'>Master Card</h6>
-                      <img src='assets/images/card/card-logo.png' alt='' />
+                      <img
+                        src='assets/images/card/card-logo.png'
+                        alt='WowDash React Vite'
+                      />
                     </div>
                     <div>
                       <span className='text-white text-xs fw-normal text-opacity-75'>
@@ -70,13 +73,16 @@ const MyCardsOne = () => {
                 <div className='p-20 h-240-px radius-8 overflow-hidden position-relative z-1'>
                   <img
                     src='assets/images/card/card-bg.png'
-                    alt=''
+                    alt='WowDash React Vite'
                     className='position-absolute start-0 top-0 w-100 h-100 object-fit-cover z-n1'
                   />
                   <div className='d-flex flex-column justify-content-between h-100'>
                     <div className='d-flex align-items-center justify-content-between flex-wrap'>
                       <h6 className='text-white mb-0'>Master Card</h6>
-                      <img src='assets/images/card/card-logo.png' alt='' />
+                      <img
+                        src='assets/images/card/card-logo.png'
+                        alt='WowDash React Vite'
+                      />
                     </div>
                     <div>
                       <span className='text-white text-xs fw-normal text-opacity-75'>
@@ -109,13 +115,16 @@ const MyCardsOne = () => {
                 <div className='p-20 h-240-px radius-8 overflow-hidden position-relative z-1'>
                   <img
                     src='assets/images/card/card-bg.png'
-                    alt=''
+                    alt='WowDash React Vite'
                     className='position-absolute start-0 top-0 w-100 h-100 object-fit-cover z-n1'
                   />
                   <div className='d-flex flex-column justify-content-between h-100'>
                     <div className='d-flex align-items-center justify-content-between flex-wrap'>
                       <h6 className='text-white mb-0'>Master Card</h6>
-                      <img src='assets/images/card/card-logo.png' alt='' />
+                      <img
+                        src='assets/images/card/card-logo.png'
+                        alt='WowDash React Vite'
+                      />
                     </div>
                     <div>
                       <span className='text-white text-xs fw-normal text-opacity-75'>

@@ -8,7 +8,7 @@ const BlogDetailsLayer = () => {
           <div className='card-body p-0'>
             <img
               src='assets/images/blog/blog-details.png'
-              alt=''
+              alt='WowDash React Vite'
               className='w-100 h-100 object-fit-cover'
             />
             <div className='p-32'>
@@ -16,7 +16,7 @@ const BlogDetailsLayer = () => {
                 <div className='d-flex align-items-center gap-8'>
                   <img
                     src='assets/images/user-list/user-list1.png'
-                    alt=''
+                    alt='WowDash React Vite'
                     className='w-48-px h-48-px rounded-circle object-fit-cover'
                   />
                   <div className='d-flex flex-column'>
@@ -77,7 +77,7 @@ const BlogDetailsLayer = () => {
                   <div className='flex-shrink-0'>
                     <img
                       src='assets/images/user-list/user-list1.png'
-                      alt=''
+                      alt='WowDash React Vite'
                       className='w-60-px h-60-px rounded-circle object-fit-cover'
                     />
                   </div>
@@ -116,7 +116,7 @@ const BlogDetailsLayer = () => {
                   <div className='flex-shrink-0'>
                     <img
                       src='assets/images/user-list/user-list2.png'
-                      alt=''
+                      alt='WowDash React Vite'
                       className='w-60-px h-60-px rounded-circle object-fit-cover'
                     />
                   </div>
@@ -155,7 +155,7 @@ const BlogDetailsLayer = () => {
                   <div className='flex-shrink-0'>
                     <img
                       src='assets/images/user-list/user-list3.png'
-                      alt=''
+                      alt='WowDash React Vite'
                       className='w-60-px h-60-px rounded-circle object-fit-cover'
                     />
                   </div>
@@ -194,7 +194,7 @@ const BlogDetailsLayer = () => {
                   <div className='flex-shrink-0'>
                     <img
                       src='assets/images/user-list/user-list4.png'
-                      alt=''
+                      alt='WowDash React Vite'
                       className='w-60-px h-60-px rounded-circle object-fit-cover'
                     />
                   </div>
@@ -233,7 +233,7 @@ const BlogDetailsLayer = () => {
                   <div className='flex-shrink-0'>
                     <img
                       src='assets/images/user-list/user-list6.png'
-                      alt=''
+                      alt='WowDash React Vite'
                       className='w-60-px h-60-px rounded-circle object-fit-cover'
                     />
                   </div>
@@ -354,7 +354,7 @@ const BlogDetailsLayer = () => {
                 >
                   <img
                     src='assets/images/blog/blog5.png'
-                    alt=''
+                    alt='WowDash React Vite'
                     className='w-100 h-100 object-fit-cover'
                   />
                 </Link>
@@ -381,7 +381,7 @@ const BlogDetailsLayer = () => {
                 >
                   <img
                     src='assets/images/blog/blog6.png'
-                    alt=''
+                    alt='WowDash React Vite'
                     className='w-100 h-100 object-fit-cover'
                   />
                 </Link>
@@ -408,7 +408,7 @@ const BlogDetailsLayer = () => {
                 >
                   <img
                     src='assets/images/blog/blog7.png'
-                    alt=''
+                    alt='WowDash React Vite'
                     className='w-100 h-100 object-fit-cover'
                   />
                 </Link>
@@ -435,7 +435,7 @@ const BlogDetailsLayer = () => {
                 >
                   <img
                     src='assets/images/blog/blog6.png'
-                    alt=''
+                    alt='WowDash React Vite'
                     className='w-100 h-100 object-fit-cover'
                   />
                 </Link>

@@ -1,53 +1,32 @@
-import UnitCountEight from "./child/UnitCountEight";
-import BalanceStatistic from "./child/BalanceStatistic";
-import EarningCategories from "./child/EarningCategories";
-import ExpenseStatistics from "./child/ExpenseStatistics";
-import PaymentHistory from "./child/PaymentHistory";
-import MonthlyExpenseBreakdown from "./child/MonthlyExpenseBreakdown";
-import QuickTransfer from "./child/QuickTransfer";
-import Investment from "./child/Investment";
-import PaymentHistoryOne from "./child/PaymentHistoryOne";
+import BookingStatisticsOne from "./child/BookingStatisticsOne";
+import SemiCircleGauge from "./child/SemiCircleGauge";
+import TravelSliderOne from "./child/TravelSliderOne";
+import UnitCountNine from "./child/UnitCountNine";
 
 const DashBoardLayerEleven = () => {
   return (
     <>
-      {/* UnitCountEight */}
-      <UnitCountEight />
-
-      <div className='mt-24'>
+      <div className='mb-24'>
         <div className='row gy-4'>
-          <div className='col-xl-8'>
-            <div className='row gy-4'>
-              {/* BalanceStatistic */}
-              <BalanceStatistic />
+          {/* UnitCountNine */}
+          <UnitCountNine />
 
-              {/* EarningCategories */}
-              <EarningCategories />
+          {/* SemiCircleGauge */}
+          <SemiCircleGauge />
 
-              {/* ExpenseStatistics */}
-              <ExpenseStatistics />
-
-              {/* PaymentHistory */}
-              <PaymentHistory />
-
-              {/* MonthlyExpenseBreakdown */}
-              <MonthlyExpenseBreakdown />
-            </div>
-          </div>
-          {/* Sidebar start */}
-          <div className='col-xl-4'>
-            {/* QuickTransfer */}
-            <QuickTransfer />
-
-            {/* Investment */}
-            <Investment />
-          </div>
-          {/* Sidebar end */}
+          {/* BookingStatisticsOne */}
+          <BookingStatisticsOne />
         </div>
       </div>
 
-      {/* PaymentHistoryOne */}
-      <PaymentHistoryOne />
+      <div className='row g-4'>
+        <div className='col-xl-8'>
+          <div className='d-flex flex-column gap-24'>
+            {/* TravelSliderOne */}
+            <TravelSliderOne />
+          </div>
+        </div>
+      </div>
     </>
   );
 };

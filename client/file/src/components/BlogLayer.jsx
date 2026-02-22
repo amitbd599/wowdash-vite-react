@@ -12,7 +12,7 @@ const BlogLayer = () => {
             >
               <img
                 src='assets/images/blog/blog1.png'
-                alt=''
+                alt='WowDash React Vite'
                 className='w-100 h-100 object-fit-cover'
               />
             </Link>
@@ -63,7 +63,7 @@ const BlogLayer = () => {
             >
               <img
                 src='assets/images/blog/blog2.png'
-                alt=''
+                alt='WowDash React Vite'
                 className='w-100 h-100 object-fit-cover'
               />
             </Link>
@@ -114,7 +114,7 @@ const BlogLayer = () => {
             >
               <img
                 src='assets/images/blog/blog3.png'
-                alt=''
+                alt='WowDash React Vite'
                 className='w-100 h-100 object-fit-cover'
               />
             </Link>
@@ -164,7 +164,7 @@ const BlogLayer = () => {
             >
               <img
                 src='assets/images/blog/blog4.png'
-                alt=''
+                alt='WowDash React Vite'
                 className='w-100 h-100 object-fit-cover'
               />
             </Link>
@@ -215,7 +215,7 @@ const BlogLayer = () => {
             >
               <img
                 src='assets/images/blog/blog5.png'
-                alt=''
+                alt='WowDash React Vite'
                 className='w-100 h-100 object-fit-cover'
               />
             </Link>
@@ -238,7 +238,7 @@ const BlogLayer = () => {
                 <div className='d-flex align-items-center gap-8'>
                   <img
                     src='assets/images/user-list/user-list1.png'
-                    alt=''
+                    alt='WowDash React Vite'
                     className='w-40-px h-40-px rounded-circle object-fit-cover'
                   />
                   <div className='d-flex flex-column'>
@@ -266,7 +266,7 @@ const BlogLayer = () => {
             >
               <img
                 src='assets/images/blog/blog6.png'
-                alt=''
+                alt='WowDash React Vite'
                 className='w-100 h-100 object-fit-cover'
               />
             </Link>
@@ -289,7 +289,7 @@ const BlogLayer = () => {
                 <div className='d-flex align-items-center gap-8'>
                   <img
                     src='assets/images/user-list/user-list2.png'
-                    alt=''
+                    alt='WowDash React Vite'
                     className='w-40-px h-40-px rounded-circle object-fit-cover'
                   />
                   <div className='d-flex flex-column'>
@@ -317,7 +317,7 @@ const BlogLayer = () => {
             >
               <img
                 src='assets/images/blog/blog7.png'
-                alt=''
+                alt='WowDash React Vite'
                 className='w-100 h-100 object-fit-cover'
               />
             </Link>
@@ -340,7 +340,7 @@ const BlogLayer = () => {
                 <div className='d-flex align-items-center gap-8'>
                   <img
                     src='assets/images/user-list/user-list3.png'
-                    alt=''
+                    alt='WowDash React Vite'
                     className='w-40-px h-40-px rounded-circle object-fit-cover'
                   />
                   <div className='d-flex flex-column'>
@@ -368,7 +368,7 @@ const BlogLayer = () => {
             >
               <img
                 src='assets/images/blog/blog6.png'
-                alt=''
+                alt='WowDash React Vite'
                 className='w-100 h-100 object-fit-cover'
               />
             </Link>
@@ -391,7 +391,7 @@ const BlogLayer = () => {
                 <div className='d-flex align-items-center gap-8'>
                   <img
                     src='assets/images/user-list/user-list5.png'
-                    alt=''
+                    alt='WowDash React Vite'
                     className='w-40-px h-40-px rounded-circle object-fit-cover'
                   />
                   <div className='d-flex flex-column'>
@@ -439,7 +439,7 @@ const BlogLayer = () => {
             >
               <img
                 src='assets/images/blog/blog1.png'
-                alt=''
+                alt='WowDash React Vite'
                 className='w-100 h-100 object-fit-cover'
               />
             </Link>
@@ -454,7 +454,7 @@ const BlogLayer = () => {
                 <div className='d-flex align-items-center gap-8'>
                   <img
                     src='assets/images/user-list/user-list1.png'
-                    alt=''
+                    alt='WowDash React Vite'
                     className='w-40-px h-40-px rounded-circle object-fit-cover'
                   />
                   <div className='d-flex flex-column'>
@@ -501,7 +501,7 @@ const BlogLayer = () => {
             >
               <img
                 src='assets/images/blog/blog2.png'
-                alt=''
+                alt='WowDash React Vite'
                 className='w-100 h-100 object-fit-cover'
               />
             </Link>
@@ -516,7 +516,7 @@ const BlogLayer = () => {
                 <div className='d-flex align-items-center gap-8'>
                   <img
                     src='assets/images/user-list/user-list1.png'
-                    alt=''
+                    alt='WowDash React Vite'
                     className='w-40-px h-40-px rounded-circle object-fit-cover'
                   />
                   <div className='d-flex flex-column'>
@@ -562,7 +562,7 @@ const BlogLayer = () => {
             >
               <img
                 src='assets/images/blog/blog3.png'
-                alt=''
+                alt='WowDash React Vite'
                 className='w-100 h-100 object-fit-cover'
               />
             </Link>
@@ -577,7 +577,7 @@ const BlogLayer = () => {
                 <div className='d-flex align-items-center gap-8'>
                   <img
                     src='assets/images/user-list/user-list1.png'
-                    alt=''
+                    alt='WowDash React Vite'
                     className='w-40-px h-40-px rounded-circle object-fit-cover'
                   />
                   <div className='d-flex flex-column'>
@@ -623,7 +623,7 @@ const BlogLayer = () => {
             >
               <img
                 src='assets/images/blog/blog4.png'
-                alt=''
+                alt='WowDash React Vite'
                 className='w-100 h-100 object-fit-cover'
               />
             </Link>
@@ -638,7 +638,7 @@ const BlogLayer = () => {
                 <div className='d-flex align-items-center gap-8'>
                   <img
                     src='assets/images/user-list/user-list1.png'
-                    alt=''
+                    alt='WowDash React Vite'
                     className='w-40-px h-40-px rounded-circle object-fit-cover'
                   />
                   <div className='d-flex flex-column'>

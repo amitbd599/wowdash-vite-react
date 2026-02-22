@@ -48,7 +48,7 @@ const UnitCountOne = () => {
               <span className='d-inline-flex align-items-center gap-1 text-danger-main'>
                 <Icon icon='bxs:down-arrow' className='text-xs' /> -800
               </span>
-              Last 30 days subscription
+              Last 30 days
             </p>
           </div>
         </div>
@@ -75,7 +75,7 @@ const UnitCountOne = () => {
               <span className='d-inline-flex align-items-center gap-1 text-success-main'>
                 <Icon icon='bxs:up-arrow' className='text-xs' /> +200
               </span>
-              Last 30 days users
+              Last 30 days
             </p>
           </div>
         </div>
@@ -102,7 +102,7 @@ const UnitCountOne = () => {
               <span className='d-inline-flex align-items-center gap-1 text-success-main'>
                 <Icon icon='bxs:up-arrow' className='text-xs' /> +$20,000
               </span>
-              Last 30 days income
+              Last 30 days
             </p>
           </div>
         </div>
@@ -129,7 +129,7 @@ const UnitCountOne = () => {
               <span className='d-inline-flex align-items-center gap-1 text-success-main'>
                 <Icon icon='bxs:up-arrow' className='text-xs' /> +$5,000
               </span>
-              Last 30 days expense
+              Last 30 days
             </p>
           </div>
         </div>
