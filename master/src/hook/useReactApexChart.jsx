@@ -5558,6 +5558,104 @@ const useReactApexChart = () => {
     colors: ["#8501F8", "#FF9F29", "#00D40E", "#F84B01", "#2FBCFC"],
   };
 
+
+  const EarningStatisticsOneSeries = [
+    {
+      name: "Income",
+      data: [48, 35, 55, 32, 48, 30, 55, 50, 57]
+    },
+    {
+      name: "Expense",
+      data: [12, 20, 15, 26, 22, 60, 40, 48, 25]
+    }
+  ];
+
+  const EarningStatisticsOneOptions = {
+    legend: {
+      show: false
+    },
+    chart: {
+      type: "area",
+      height: 200,
+      toolbar: {
+        show: false
+      }
+    },
+    dataLabels: {
+      enabled: false
+    },
+    stroke: {
+      curve: "smooth",
+      width: 3,
+      colors: ["#487FFF", "#FF9F29"],
+      lineCap: "round"
+    },
+    grid: {
+      borderColor: "#D1D5DB",
+      strokeDashArray: 1,
+      xaxis: {
+        lines: {
+          show: false
+        }
+      },
+      yaxis: {
+        lines: {
+          show: true
+        }
+      }
+    },
+    colors: ["#487FFF", "#FF9F29"],
+    fill: {
+      type: "gradient",
+      gradient: {
+        shade: "light",
+        type: "vertical",
+        shadeIntensity: 0.5,
+        gradientToColors: [undefined, `${"#FF9F29"}00`],
+        opacityFrom: [0, 0],
+        opacityTo: [0, 0],
+        stops: [0, 100]
+      }
+    },
+    markers: {
+      colors: ["#487FFF", "#FF9F29"],
+      strokeWidth: 3,
+      size: 0,
+      hover: {
+        size: 10
+      }
+    },
+    xaxis: {
+      categories: [
+        "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+        "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+      ],
+      labels: {
+        show: false,
+        style: {
+          fontSize: "14px"
+        }
+      },
+      tooltip: {
+        enabled: false
+      }
+    },
+    yaxis: {
+      labels: {
+        formatter: (value) => "$" + value + "k",
+        style: {
+          fontSize: "14px"
+        }
+      }
+    },
+    tooltip: {
+      x: {
+        format: "dd/MM/yy HH:mm"
+      }
+    }
+  };
+
+
   return {
     expenseStatisticsOptions,
     expenseStatisticsSeries,
@@ -5665,6 +5763,8 @@ const useReactApexChart = () => {
     SemiCircleGaugeTwoOption,
     BookingStatisticsOneSeries,
     BookingStatisticsOneSeriesOptions,
+    EarningStatisticsOneSeries,
+    EarningStatisticsOneOptions
   };
 };
 
