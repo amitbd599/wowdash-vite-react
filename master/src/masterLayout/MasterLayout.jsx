@@ -267,6 +267,17 @@ const MasterLayout = ({ children }) => {
                     Booking System
                   </NavLink>
                 </li>
+                <li>
+                  <NavLink
+                    to='/index-13'
+                    className={(navData) =>
+                      navData.isActive ? "active-page" : ""
+                    }
+                  >
+                    <i className='ri-circle-fill circle-icon text-warning-main w-auto' />{" "}
+                    Help Desk
+                  </NavLink>
+                </li>
               </ul>
             </li>
 
