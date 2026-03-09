@@ -300,6 +300,17 @@ const MasterLayout = ({ children }) => {
                     Project Management
                   </NavLink>
                 </li>
+                <li>
+                  <NavLink
+                    to='/index-16'
+                    className={(navData) =>
+                      navData.isActive ? "active-page" : ""
+                    }
+                  >
+                    <i className='ri-circle-fill circle-icon text-warning-main w-auto' />{" "}
+                    Call Center
+                  </NavLink>
+                </li>
               </ul>
             </li>
 

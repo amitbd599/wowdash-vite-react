@@ -100,6 +100,7 @@ import HomePageTwelve from "./pages/HomePageTwelve";
 import HomePageThirteen from "./pages/HomePageThirteen";
 import HomePageFourteen from "./pages/HomePageFourteen";
 import HomePageFifteen from "./pages/HomePageFifteen";
+import HomePageSixteen from "./pages/HomePageSixteen";
 
 function App() {
   return (
@@ -122,6 +123,7 @@ function App() {
         <Route exact path='/index-13' element={<HomePageThirteen />} />
         <Route exact path='/index-14' element={<HomePageFourteen />} />
         <Route exact path='/index-15' element={<HomePageFifteen />} />
+        <Route exact path='/index-16' element={<HomePageSixteen />} />
 
         {/* SL */}
         <Route exact path='/add-user' element={<AddUserPage />} />
