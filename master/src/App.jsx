@@ -101,6 +101,10 @@ import HomePageThirteen from "./pages/HomePageThirteen";
 import HomePageFourteen from "./pages/HomePageFourteen";
 import HomePageFifteen from "./pages/HomePageFifteen";
 import HomePageSixteen from "./pages/HomePageSixteen";
+import HomePageSeventeen from "./pages/HomePageSeventeen";
+import HomePageEighteen from "./pages/HomePageEighteen";
+import HomePageNineteen from "./pages/HomePageNineteen";
+import HomePageTwenty from "./pages/HomePageTwenty";
 
 function App() {
   return (
@@ -124,6 +128,10 @@ function App() {
         <Route exact path='/index-14' element={<HomePageFourteen />} />
         <Route exact path='/index-15' element={<HomePageFifteen />} />
         <Route exact path='/index-16' element={<HomePageSixteen />} />
+        <Route exact path='/index-17' element={<HomePageSeventeen />} />
+        <Route exact path='/index-18' element={<HomePageEighteen />} />
+        <Route exact path='/index-19' element={<HomePageNineteen />} />
+        <Route exact path='/index-20' element={<HomePageTwenty />} />
 
         {/* SL */}
         <Route exact path='/add-user' element={<AddUserPage />} />

@@ -311,6 +311,50 @@ const MasterLayout = ({ children }) => {
                     Call Center
                   </NavLink>
                 </li>
+                <li>
+                  <NavLink
+                    to='/index-17'
+                    className={(navData) =>
+                      navData.isActive ? "active-page" : ""
+                    }
+                  >
+                    <i className='ri-circle-fill circle-icon text-warning-main w-auto' />{" "}
+                    SaaS
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to='/index-18'
+                    className={(navData) =>
+                      navData.isActive ? "active-page" : ""
+                    }
+                  >
+                    <i className='ri-circle-fill circle-icon text-warning-main w-auto' />{" "}
+                    Sales
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to='/index-19'
+                    className={(navData) =>
+                      navData.isActive ? "active-page" : ""
+                    }
+                  >
+                    <i className='ri-circle-fill circle-icon text-warning-main w-auto' />{" "}
+                    Real Estate
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to='/index-20'
+                    className={(navData) =>
+                      navData.isActive ? "active-page" : ""
+                    }
+                  >
+                    <i className='ri-circle-fill circle-icon text-warning-main w-auto' />{" "}
+                    Shipment
+                  </NavLink>
+                </li>
               </ul>
             </li>
 
