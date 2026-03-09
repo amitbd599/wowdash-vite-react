@@ -1,55 +1,53 @@
-import BookingStatisticsOne from "./child/BookingStatisticsOne";
-import CheckInCheckout from "./child/CheckInCheckout";
-import CountryStatusTwo from "./child/CountryStatusTwo";
-import EarningStatisticsOne from "./child/EarningStatisticsOne";
-import SemiCircleGauge from "./child/SemiCircleGauge";
-import SpendOverview from "./child/SpendOverview";
-import TransactionHistoryOne from "./child/TransactionHistoryOne";
-import TravelSliderOne from "./child/TravelSliderOne";
-import UnitCountNine from "./child/UnitCountNine";
+import UnitCountEight from "./child/UnitCountEight";
+import BalanceStatistic from "./child/BalanceStatistic";
+import EarningCategories from "./child/EarningCategories";
+import ExpenseStatistics from "./child/ExpenseStatistics";
+import PaymentHistory from "./child/PaymentHistory";
+import MonthlyExpenseBreakdown from "./child/MonthlyExpenseBreakdown";
+import QuickTransfer from "./child/QuickTransfer";
+import Investment from "./child/Investment";
+import PaymentHistoryOne from "./child/PaymentHistoryOne";
 
 const DashBoardLayerEleven = () => {
   return (
     <>
-      <div className='mb-24'>
+      {/* UnitCountEight */}
+      <UnitCountEight />
+
+      <div className='mt-24'>
         <div className='row gy-4'>
-          {/* UnitCountNine */}
-          <UnitCountNine />
+          <div className='col-xl-8'>
+            <div className='row gy-4'>
+              {/* BalanceStatistic */}
+              <BalanceStatistic />
 
-          {/* SemiCircleGauge */}
-          <SemiCircleGauge />
+              {/* EarningCategories */}
+              <EarningCategories />
 
-          {/* BookingStatisticsOne */}
-          <BookingStatisticsOne />
+              {/* ExpenseStatistics */}
+              <ExpenseStatistics />
+
+              {/* PaymentHistory */}
+              <PaymentHistory />
+
+              {/* MonthlyExpenseBreakdown */}
+              <MonthlyExpenseBreakdown />
+            </div>
+          </div>
+          {/* Sidebar start */}
+          <div className='col-xl-4'>
+            {/* QuickTransfer */}
+            <QuickTransfer />
+
+            {/* Investment */}
+            <Investment />
+          </div>
+          {/* Sidebar end */}
         </div>
       </div>
 
-      <div className='row g-4'>
-        <div className='col-xl-8'>
-          <div className='d-flex flex-column gap-24'>
-            {/* TravelSliderOne */}
-            <TravelSliderOne />
-
-            {/* EarningStatisticsOne */}
-            <EarningStatisticsOne />
-
-            {/* TransactionHistoryOne */}
-            <TransactionHistoryOne />
-          </div>
-        </div>
-        <div className="col-xl-4">
-          <div className="d-flex flex-column gap-24">
-            {/* CountryStatusTwo */}
-            <CountryStatusTwo />
-
-            {/* CheckInCheckout */}
-            <CheckInCheckout />
-
-            {/* SpendOverview */}
-            <SpendOverview />
-          </div>
-        </div>
-      </div>
+      {/* PaymentHistoryOne */}
+      <PaymentHistoryOne />
     </>
   );
 };

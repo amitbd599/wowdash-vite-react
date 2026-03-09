@@ -5655,8 +5655,758 @@ const useReactApexChart = () => {
     }
   };
 
+  const TaskSummaryOneSeries = [
+    {
+      name: "series1",
+      data: [48, 35, 55, 32, 48, 30, 55, 50, 57]
+    }
+  ];
+
+  const TaskSummaryOneOptions = {
+    chart: {
+      type: "area",
+      width: 466,
+      height: 86,
+      toolbar: {
+        show: false
+      },
+      dropShadow: {
+        enabled: false
+      }
+    },
+    legend: {
+      show: false
+    },
+    dataLabels: {
+      enabled: false
+    },
+    stroke: {
+      curve: "smooth",
+      width: 3,
+      colors: ["#487FFF"]
+    },
+    fill: {
+      type: "solid",
+      opacity: 0
+    },
+    grid: {
+      show: false
+    },
+    markers: {
+      colors: ["#487FFF"],
+      strokeWidth: 3,
+      size: 0,
+      hover: {
+        size: 10
+      }
+    },
+    xaxis: {
+      categories: [
+        "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+        "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+      ],
+      labels: {
+        show: false
+      },
+      tooltip: {
+        enabled: false
+      }
+    },
+    yaxis: {
+      labels: {
+        show: false
+      }
+    },
+    tooltip: {
+      x: {
+        format: "dd/MM/yy HH:mm"
+      }
+    }
+  };
+
+  const TicketPriorityOneSeries = [
+    {
+      name: "Ticket",
+      data: [6200, 5200, 4200, 3200]
+    }
+  ];
+  const TicketPriorityOneOptions = {
+    chart: {
+      type: "bar",
+      height: 270,
+      toolbar: {
+        show: false
+      }
+    },
+    plotOptions: {
+      bar: {
+        borderRadius: 4,
+        horizontal: true,
+        distributed: true,
+        barHeight: "22px"
+      }
+    },
+    dataLabels: {
+      enabled: false
+    },
+    grid: {
+      borderColor: "#ddd",
+      xaxis: {
+        lines: {
+          show: false
+        }
+      },
+      yaxis: {
+        lines: {
+          show: false
+        }
+      }
+    },
+    xaxis: {
+      categories: ["High", "Medium", "Low", "Urgent"],
+      labels: {
+        formatter: (value) => (value / 1000).toFixed(0) + "k"
+      }
+    },
+    legend: {
+      show: false
+    },
+    fill: {
+      type: "gradient",
+      gradient: {
+        shade: "light",
+        type: "horizontal",
+        shadeIntensity: 0.5,
+        gradientToColors: ["#C98BFF", "#FFDC90", "#94FF9B", "#FFAC89"],
+        opacityFrom: 1,
+        opacityTo: 1,
+        stops: [0, 100]
+      }
+    },
+    colors: [
+      "#8501F8",
+      "#FF9F29",
+      "#00D40E",
+      "#F84B01"
+    ]
+  };
+
+  const TicketStatusOneSeries = [20, 22, 28, 10];
+
+  const TicketStatusOneOptions = {
+    chart: {
+      type: "polarArea",
+      height: 264
+    },
+    labels: ["Product 1", "Product 2", "Product 3", "Product 4"],
+    colors: ["#487FFF", "#FF9F29", "#9935FE", "#EF4A00"],
+    stroke: {
+      colors: ["#487FFF", "#FF9F29", "#9935FE", "#EF4A00"]
+    },
+    fill: {
+      opacity: 0.8
+    },
+    legend: {
+      show: false,
+      position: "bottom",
+      horizontalAlign: "center"
+    },
+    responsive: [
+      {
+        breakpoint: 480,
+        options: {
+          chart: {
+            width: 200
+          },
+          legend: {
+            position: "bottom"
+          }
+        }
+      }
+    ]
+  };
+
+  const PendingVsSolvedTicketsSeries = [
+    {
+      name: "Pending",
+      data: [480, 350, 550, 320, 480, 300, 550, 500, 570]
+    },
+    {
+      name: "Solved",
+      data: [120, 200, 150, 260, 220, 600, 400, 480, 250]
+    }
+  ];
+
+  const PendingVsSolvedTicketsOptions = {
+    legend: {
+      show: false
+    },
+    chart: {
+      type: "area",
+      height: 200,
+      toolbar: {
+        show: false
+      }
+    },
+    dataLabels: {
+      enabled: false
+    },
+    stroke: {
+      curve: "smooth",
+      width: 3,
+      colors: ["#45B369", "#FF9F29"],
+      lineCap: "round"
+    },
+    grid: {
+      show: true,
+      borderColor: "#D1D5DB",
+      strokeDashArray: 1,
+      xaxis: {
+        lines: {
+          show: false
+        }
+      },
+      yaxis: {
+        lines: {
+          show: true
+        }
+      },
+      padding: {
+        top: -20,
+        bottom: -10
+      }
+    },
+    colors: ["#45B369", "#FF9F29"],
+    fill: {
+      type: "gradient",
+      gradient: {
+        shade: "light",
+        type: "vertical",
+        shadeIntensity: 0.5,
+        gradientToColors: [undefined, `${"#FF9F29"}00`],
+        inverseColors: false,
+        opacityFrom: [0.4, 0.6],
+        opacityTo: [0.3, 0.3],
+        stops: [0, 100]
+      }
+    },
+    markers: {
+      colors: ["#45B369", "#FF9F29"],
+      strokeWidth: 3,
+      size: 0,
+      hover: {
+        size: 10
+      }
+    },
+    xaxis: {
+      categories: [
+        "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+        "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+      ],
+      labels: {
+        show: false,
+        style: {
+          fontSize: "14px"
+        }
+      },
+      tooltip: {
+        enabled: false
+      }
+    },
+    tooltip: {
+      x: {
+        format: "dd/MM/yy HH:mm"
+      }
+    }
+  };
+  const ResponseTimeSeries = [75];
+
+  const ResponseTimeOptions = {
+    chart: {
+      width: 400,
+      height: 300,
+      type: "radialBar",
+      sparkline: {
+        enabled: true
+      },
+      toolbar: {
+        show: false
+      }
+    },
+
+    plotOptions: {
+      radialBar: {
+        offsetY: -24,
+        offsetX: -14,
+        startAngle: -90,
+        endAngle: 90,
+
+        track: {
+          background: "#E3E6E9",
+          strokeWidth: "70%"
+        },
+
+        hollow: {
+          size: "70%"
+        },
+
+        dataLabels: {
+          show: false,
+          value: {
+            fontSize: "22px",
+            fontWeight: 600,
+            color: "#487FFF",
+            offsetY: 16
+          }
+        }
+      }
+    },
+
+    fill: {
+      type: "gradient",
+      colors: ["#9DBAFF"],
+      gradient: {
+        shade: "dark",
+        type: "horizontal",
+        shadeIntensity: 0.5,
+        gradientToColors: ["#487FFF"],
+        inverseColors: true,
+        opacityFrom: 1,
+        opacityTo: 1,
+        stops: [0, 100]
+      }
+    },
+
+    stroke: {
+      lineCap: "round"
+    }
+  };
+
+  const AudienceStatsSeries = [
+    {
+      name: "Net Profit",
+      data: [44, 100, 40, 56, 30, 58, 50, 44, 100, 40, 56, 30]
+    },
+    {
+      name: "Revenue",
+      data: [90, 140, 80, 125, 70, 140, 110, 90, 140, 80, 125, 70]
+    },
+    {
+      name: "Free Cash",
+      data: [60, 120, 60, 90, 50, 95, 90, 60, 120, 60, 90, 50]
+    }
+  ];
+
+  const AudienceStatsOptions = {
+    chart: {
+      type: "bar",
+      height: 300,
+      toolbar: {
+        show: false
+      }
+    },
+
+    colors: ["#E4F1FF", "#E4F1FF", "#E4F1FF"],
+
+    labels: ["Active", "New", "Total"],
+
+    legend: {
+      show: false
+    },
+
+    grid: {
+      borderColor: "#00000000",
+      strokeDashArray: 4,
+      position: "back"
+    },
+
+    plotOptions: {
+      bar: {
+        borderRadius: 2,
+        columnWidth: "70%",
+        borderRadiusApplication: "end"
+      }
+    },
+
+    dataLabels: {
+      enabled: false
+    },
+
+    states: {
+      hover: {
+        filter: {
+          type: "none"
+        }
+      }
+    },
+
+    stroke: {
+      show: true,
+      width: 4,
+      colors: ["transparent"]
+    },
+
+    xaxis: {
+      categories: [
+        "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+        "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+      ]
+    },
+
+    yaxis: {
+      labels: {
+        formatter: (value) => "$" + value + "k",
+        style: {
+          fontSize: "14px"
+        }
+      }
+    },
+
+    fill: {
+      opacity: 1
+    }
+  };
+
+  const EarningsOverviewSeries = [
+    {
+      name: "series1",
+      data: [6, 20, 15, 48, 28, 55, 28, 52, 25, 32, 15, 25]
+    }
+  ];
+  const EarningsOverviewOptions = {
+    legend: {
+      show: false
+    },
+    chart: {
+      type: "area",
+      height: 200,
+      toolbar: {
+        show: false
+      }
+    },
+    dataLabels: {
+      enabled: false
+    },
+    stroke: {
+      curve: "smooth",
+      width: 0,
+      colors: ["#98B6FF"],
+      lineCap: "round"
+    },
+    grid: {
+      borderColor: "#D1D5DB",
+      strokeDashArray: 1,
+      xaxis: {
+        lines: {
+          show: false
+        }
+      },
+      yaxis: {
+        lines: {
+          show: true
+        }
+      }
+    },
+    colors: ["#98B6FF"],
+    fill: {
+      type: "gradient",
+      gradient: {
+        shade: "light",
+        type: "vertical",
+        shadeIntensity: 0.5,
+        gradientToColors: [`${"#6593FF"}`],
+        inverseColors: false,
+        opacityFrom: 1,
+        opacityTo: 0.4,
+        stops: [0, 100]
+      }
+    },
+    markers: {
+      colors: ["#98B6FF"],
+      strokeWidth: 2,
+      size: 0,
+      hover: {
+        size: 8
+      }
+    },
+    xaxis: {
+      categories: [
+        "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+        "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+      ],
+      labels: {
+        show: false,
+        style: {
+          fontSize: "14px"
+        }
+      },
+      tooltip: {
+        enabled: false
+      }
+    },
+    yaxis: {
+      labels: {
+        formatter: (value) => "$" + value + "k",
+        style: {
+          fontSize: "14px"
+        }
+      }
+    },
+    tooltip: {
+      x: {
+        format: "dd/MM/yy HH:mm"
+      }
+    }
+  };
+
+  const TopCategoriesSeries = [40, 87, 87, 30, 50];
+
+  const TopCategoriesOptions = {
+    labels: ['Health', 'Business', 'Lifestyle', 'Entertainment', 'UI/UX Design'],
+    colors: ['#FF9F29', '#487FFF', '#EF4A00', '#9935FE', '#45B369'],
+
+    legend: {
+      show: false
+    },
+
+    chart: {
+      type: "donut",
+      height: 270,
+      sparkline: {
+        enabled: true
+      }
+    },
+
+    stroke: {
+      width: 0
+    },
+
+    dataLabels: {
+      enabled: false
+    },
+
+    responsive: [
+      {
+        breakpoint: 480,
+        options: {
+          chart: {
+            width: 200
+          },
+          legend: {
+            position: "bottom"
+          }
+        }
+      }
+    ]
+  };
+
+  const AverageEarningsOneSeries = [
+    {
+      name: "Income",
+      data: [48, 35, 55, 32, 48, 30, 55, 50, 57]
+    },
+    {
+      name: "Expense",
+      data: [12, 20, 15, 26, 22, 60, 40, 48, 25]
+    }
+  ];
+
+  const AverageEarningsOneOptions = {
+    chart: {
+      type: "line",
+      height: 270,
+      toolbar: {
+        show: false
+      }
+    },
+    legend: {
+      show: false
+    },
+    dataLabels: {
+      enabled: false
+    },
+    stroke: {
+      curve: "smooth",
+      width: 3,
+      colors: ["#487FFF", "#FF9F29"],
+      lineCap: "round"
+    },
+    grid: {
+      borderColor: "#D1D5DB",
+      strokeDashArray: 1,
+      xaxis: { lines: { show: false } },
+      yaxis: { lines: { show: true } },
+      padding: { top: -20, right: 0, bottom: -10, left: 0 }
+    },
+    colors: ["#487FFF", "#FF9F29"],
+    markers: {
+      colors: ["#487FFF", "#FF9F29"],
+      strokeWidth: 3,
+      size: 0,
+      hover: { size: 10 }
+    },
+    xaxis: {
+      categories: [
+        "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+        "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+      ],
+      labels: {
+        show: false,
+        style: { fontSize: "14px" },
+        formatter: (value) => value
+      },
+      tooltip: { enabled: false }
+    },
+    yaxis: {
+      labels: {
+        formatter: (value) => "$" + value + "k",
+        style: { fontSize: "14px" }
+      }
+    },
+    tooltip: {
+      x: { format: "dd/MM/yy HH:mm" }
+    }
+  };
+
+  const ProjectAnalysisSeries = [
+    {
+      name: "Net Profit",
+      data: [44, 100, 40, 56, 30, 58, 50],
+    },
+    {
+      name: "Revenue",
+      data: [90, 140, 80, 125, 70, 140, 110],
+    },
+    {
+      name: "Free Cash",
+      data: [60, 120, 60, 90, 50, 95, 90],
+    },
+  ];
+
+  const ProjectAnalysisOptions = {
+    colors: ["#45B369", "#FF9F29", "#9935FE"],
+    labels: ["Active", "New", "Total"],
+    legend: {
+      show: false,
+    },
+    chart: {
+      type: "bar",
+      height: 350,
+      toolbar: {
+        show: false,
+      },
+    },
+    grid: {
+      show: true,
+      borderColor: "#D1D5DB",
+      strokeDashArray: 4,
+      position: "back",
+    },
+    plotOptions: {
+      bar: {
+        borderRadius: 4,
+        columnWidth: "18%", // ApexCharts accepts % string for columnWidth
+      },
+    },
+    dataLabels: {
+      enabled: false,
+    },
+    states: {
+      hover: {
+        filter: {
+          type: "none",
+        },
+      },
+    },
+    stroke: {
+      show: true,
+      width: 0,
+      colors: ["transparent"],
+    },
+    xaxis: {
+      categories: ["Mon", "Tues", "Wed", "Thurs", "Fri", "Sat", "Sun"],
+    },
+    yaxis: {
+      // yaxis does not have `categories`, use labels or min/max instead
+      labels: {
+        formatter: function (val) {
+          return val.toLocaleString();
+        },
+      },
+    },
+    fill: {
+      opacity: 1,
+    },
+  };
+  const TeamMembersOneSeries = [40, 87, 87, 30];
+
+  const TeamMembersOneOptions = {
+    chart: {
+      type: "donut",
+      height: 270,
+      sparkline: {
+        enabled: true, // remove extra whitespace
+      },
+      margin: {
+        top: 0,
+        right: 0,
+        bottom: 0,
+        left: 0
+      },
+      padding: {
+        top: 0,
+        right: 0,
+        bottom: 0,
+        left: 0
+      }
+    },
+    colors: ['#dc3545', '#ff9f29', '#8252e9', '#144bd6'],
+    labels: ['Health', 'Business', 'Lifestyle', 'Entertainment'],
+    legend: {
+      show: false
+    },
+    stroke: {
+      width: 2
+    },
+    dataLabels: {
+      enabled: false
+    },
+    responsive: [
+      {
+        breakpoint: 480,
+        options: {
+          chart: {
+            width: 200
+          },
+          legend: {
+            position: "bottom"
+          }
+        }
+      }
+    ]
+  };
 
   return {
+    TeamMembersOneSeries,
+    TeamMembersOneOptions,
+    ProjectAnalysisSeries,
+    ProjectAnalysisOptions,
+    AverageEarningsOneSeries,
+    AverageEarningsOneOptions,
+    TopCategoriesSeries,
+    TopCategoriesOptions,
+    EarningsOverviewSeries,
+    EarningsOverviewOptions,
+    AudienceStatsSeries,
+    AudienceStatsOptions,
+    ResponseTimeSeries,
+    ResponseTimeOptions,
+    PendingVsSolvedTicketsSeries,
+    PendingVsSolvedTicketsOptions,
+    TicketStatusOneSeries,
+    TicketStatusOneOptions,
+    TicketPriorityOneSeries,
+    TicketPriorityOneOptions,
     expenseStatisticsOptions,
     expenseStatisticsSeries,
     balanceStatisticsOptions,
@@ -5764,7 +6514,9 @@ const useReactApexChart = () => {
     BookingStatisticsOneSeries,
     BookingStatisticsOneSeriesOptions,
     EarningStatisticsOneSeries,
-    EarningStatisticsOneOptions
+    EarningStatisticsOneOptions,
+    TaskSummaryOneSeries,
+    TaskSummaryOneOptions
   };
 };
 

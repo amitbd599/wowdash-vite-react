@@ -1,6 +1,6 @@
 import MasterLayout from "../masterLayout/MasterLayout";
 import Breadcrumb from "../components/Breadcrumb";
-import DashBoardLayerEleven from "../components/DashBoardLayerEleven";
+import DashBoardLayerTwelve from "../components/DashBoardLayerTwelve";
 
 const HomePageTwelve = () => {
   return (
@@ -10,8 +10,8 @@ const HomePageTwelve = () => {
         {/* Breadcrumb */}
         <Breadcrumb title='Booking System' />
 
-        {/* DashBoardLayerEleven */}
-        <DashBoardLayerEleven />
+        {/* DashBoardLayerTwelve */}
+        <DashBoardLayerTwelve />
       </MasterLayout>
     </>
   );

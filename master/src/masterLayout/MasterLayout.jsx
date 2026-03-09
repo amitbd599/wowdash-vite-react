@@ -278,6 +278,28 @@ const MasterLayout = ({ children }) => {
                     Help Desk
                   </NavLink>
                 </li>
+                <li>
+                  <NavLink
+                    to='/index-14'
+                    className={(navData) =>
+                      navData.isActive ? "active-page" : ""
+                    }
+                  >
+                    <i className='ri-circle-fill circle-icon text-warning-main w-auto' />{" "}
+                    Podcast
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to='/index-15'
+                    className={(navData) =>
+                      navData.isActive ? "active-page" : ""
+                    }
+                  >
+                    <i className='ri-circle-fill circle-icon text-warning-main w-auto' />{" "}
+                    Project Management
+                  </NavLink>
+                </li>
               </ul>
             </li>
 

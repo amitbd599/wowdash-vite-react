@@ -97,6 +97,9 @@ import AccessDeniedPage from "./pages/AccessDeniedPage";
 import MaintenancePage from "./pages/MaintenancePage";
 import BlankPagePage from "./pages/BlankPagePage";
 import HomePageTwelve from "./pages/HomePageTwelve";
+import HomePageThirteen from "./pages/HomePageThirteen";
+import HomePageFourteen from "./pages/HomePageFourteen";
+import HomePageFifteen from "./pages/HomePageFifteen";
 
 function App() {
   return (
@@ -116,6 +119,9 @@ function App() {
         <Route exact path='/index-10' element={<HomePageTen />} />
         <Route exact path='/index-11' element={<HomePageEleven />} />
         <Route exact path='/index-12' element={<HomePageTwelve />} />
+        <Route exact path='/index-13' element={<HomePageThirteen />} />
+        <Route exact path='/index-14' element={<HomePageFourteen />} />
+        <Route exact path='/index-15' element={<HomePageFifteen />} />
 
         {/* SL */}
         <Route exact path='/add-user' element={<AddUserPage />} />
