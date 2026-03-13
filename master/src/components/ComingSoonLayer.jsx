@@ -39,10 +39,10 @@ const ComingSoonLayer = () => {
     <div className='custom-bg'>
       <div className='container container--xl'>
         <div className='d-flex align-items-center justify-content-between py-24'>
-          <Link to='/index'>
+          <Link to='/index-1'>
             <img src='assets/images/logo.png' alt='Logo' />
           </Link>
-          <Link to='/index' className='btn btn-outline-primary-600 text-sm'>
+          <Link to='/index-1' className='btn btn-outline-primary-600 text-sm'>
             Go To Home
           </Link>
         </div>

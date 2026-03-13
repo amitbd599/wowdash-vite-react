@@ -263,7 +263,7 @@ const MasterLayout = ({ children }) => {
                       navData.isActive ? "active-page" : ""
                     }
                   >
-                    <i className='ri-circle-fill circle-icon text-warning-main w-auto' />{" "}
+                    <i className='ri-circle-fill circle-icon text-info-main w-auto' />{" "}
                     Booking System
                   </NavLink>
                 </li>
@@ -274,7 +274,7 @@ const MasterLayout = ({ children }) => {
                       navData.isActive ? "active-page" : ""
                     }
                   >
-                    <i className='ri-circle-fill circle-icon text-warning-main w-auto' />{" "}
+                    <i className='ri-circle-fill circle-icon text-success-main w-auto' />{" "}
                     Help Desk
                   </NavLink>
                 </li>
@@ -296,7 +296,7 @@ const MasterLayout = ({ children }) => {
                       navData.isActive ? "active-page" : ""
                     }
                   >
-                    <i className='ri-circle-fill circle-icon text-warning-main w-auto' />{" "}
+                    <i className='ri-circle-fill circle-icon text-success-main w-auto' />{" "}
                     Project Management
                   </NavLink>
                 </li>
@@ -307,7 +307,7 @@ const MasterLayout = ({ children }) => {
                       navData.isActive ? "active-page" : ""
                     }
                   >
-                    <i className='ri-circle-fill circle-icon text-warning-main w-auto' />{" "}
+                    <i className='ri-circle-fill circle-icon text-info-purple w-auto' />{" "}
                     Call Center
                   </NavLink>
                 </li>
@@ -329,7 +329,7 @@ const MasterLayout = ({ children }) => {
                       navData.isActive ? "active-page" : ""
                     }
                   >
-                    <i className='ri-circle-fill circle-icon text-warning-main w-auto' />{" "}
+                    <i className='ri-circle-fill circle-icon text-info-purple w-auto' />{" "}
                     Sales
                   </NavLink>
                 </li>
@@ -340,7 +340,7 @@ const MasterLayout = ({ children }) => {
                       navData.isActive ? "active-page" : ""
                     }
                   >
-                    <i className='ri-circle-fill circle-icon text-warning-main w-auto' />{" "}
+                    <i className='ri-circle-fill circle-icon text-info-main w-auto' />{" "}
                     Real Estate
                   </NavLink>
                 </li>
@@ -351,7 +351,7 @@ const MasterLayout = ({ children }) => {
                       navData.isActive ? "active-page" : ""
                     }
                   >
-                    <i className='ri-circle-fill circle-icon text-warning-main w-auto' />{" "}
+                    <i className='ri-circle-fill circle-icon text-danger-main w-auto' />{" "}
                     Shipment
                   </NavLink>
                 </li>

@@ -603,7 +603,7 @@ const MarketplaceDetailsLayer = () => {
                   <span className='text-primary-600'>16.2665 ITC</span> will be
                   available in your portfolio on 10-10-2022
                 </p>
-                <Link to='/index' className='btn btn-primary-600 mt-32 px-24'>
+                <Link to='/index-1' className='btn btn-primary-600 mt-32 px-24'>
                   Back to Dashboard
                 </Link>
               </div>

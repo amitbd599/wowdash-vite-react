@@ -5,10 +5,10 @@ const MaintenanceLayer = () => {
     <div className='custom-bg'>
       <div className='container container--xl'>
         <div className='d-flex align-items-center justify-content-between py-24'>
-          <Link to='/index' className=''>
+          <Link to='/index-1' className=''>
             <img src='assets/images/logo.png' alt='' />
           </Link>
-          <Link to='/index' className='btn btn-outline-primary-600 text-sm'>
+          <Link to='/index-1' className='btn btn-outline-primary-600 text-sm'>
             {" "}
             Go To Home{" "}
           </Link>
